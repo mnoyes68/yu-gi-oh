@@ -23,8 +23,8 @@ class Deck():
 
 class Hand():
     def __init__(self):
-        self.hand = []
+        self.cards = []
 
     def add_card(self, card):
-        self.hand.append(card)
-        return self.hand
+        self.cards.append(card)
+        return self.cards

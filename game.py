@@ -1,10 +1,14 @@
 import cards
 import player
+import actions
+import random
+import decisionmanager
 
 class Game():
     def __init__(self, p1, p2):
         self.p1 = p1
         self.p2 = p2
+        self.decision_manager = decisionmanager.Decisionmaker()
         self.turn = self.p1
 
     def play_game(self):
@@ -16,7 +20,10 @@ class Game():
 
     def play_turn(self, player):
         print "It is now " + player.name + "'s Turn"
-        player.draw_card()
+        dp = DrawPhase(player)
+        dp.execute_phase()
+        mp = MainPhase(player)
+        mp.execute_phase()
 
     def initialize_game(self):
         for i in range (0,5):
@@ -28,13 +35,26 @@ class Game():
             self.turn == self.p2
         else:
             self.turn == self.p1
-        print '\n' + "It is now " + self.turn.name + "'s Turn" + '\n'
+        print "It is now " + self.turn.name + "'s Turn"
 
-class Board():
-    def __init__(self):
-        pass
-
-class Space():
-    def __init__(self, type, player):
-        self.type = type
+class Phase():
+    def __init__(self, player):
         self.player = player
+
+    def execute_phase(self):
+        raise NotImplementedError('users must define execute to use this base class')
+
+class DrawPhase(Phase):
+    def execute_phase(self):
+        self.player.draw_card()
+
+class MainPhase(Phase):
+    def execute_phase(self):
+        card_choice = random.choice(self.player.hand.cards)
+        move = actions.NormalSummon(self.player, card_choice)
+        move.execute_move()
+
+
+
+
+
