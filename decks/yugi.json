@@ -1,0 +1,177 @@
+[
+    { 
+        "name":"Mystical Elf",
+        "id":"SDY-001",
+        "atk":800,
+        "defn":2000,
+        "level":4
+    },
+    { 
+        "name":"Feral Imp",
+        "id":"SDY-002",
+        "atk":1300,
+        "defn":1400,
+        "level":4
+    },
+    { 
+        "name":"Winged Dragon, Guardian of the Fortress #1",
+        "id":"SDY-003",
+        "atk":1400,
+        "defn":1200,
+        "level":4
+    },
+    { 
+        "name":"Summoned Skull",
+        "id":"SDY-004",
+        "atk":2500,
+        "defn":1200,
+        "level":6
+    },
+    { 
+        "name":"Beaver Warrior",
+        "id":"SDY-005",
+        "atk":1200,
+        "defn":1500,
+        "level":4
+    },
+    { 
+        "name":"Dark Magician",
+        "id":"SDY-006",
+        "atk":2500,
+        "defn":2100,
+        "level":7
+    },
+    { 
+        "name":"Gaia the Fierce Knight",
+        "id":"SDY-007",
+        "atk":2300,
+        "defn":2100,
+        "level":7
+    },
+    { 
+        "name":"Curse of Dragon",
+        "id":"SDY-008",
+        "atk":2000,
+        "defn":1500,
+        "level":5
+    },
+    { 
+        "name":"Celtic Guardian",
+        "id":"SDY-009",
+        "atk":1400,
+        "defn":1200,
+        "level":4
+    },
+    { 
+        "name":"Mammoth Graveyard",
+        "id":"SDY-010",
+        "atk":1200,
+        "defn":800,
+        "level":3
+    },
+    { 
+        "name":"Great White",
+        "id":"SDY-011",
+        "atk":1600,
+        "defn":800,
+        "level":4
+    },
+    { 
+        "name":"Silver Fang",
+        "id":"SDY-012",
+        "atk":1200,
+        "defn":800,
+        "level":3
+    },
+    { 
+        "name":"Giant Soldier of Stone",
+        "id":"SDY-013",
+        "atk":1300,
+        "defn":2000,
+        "level":3
+    },
+    { 
+        "name":"Dragon Zombie",
+        "id":"SDY-014",
+        "atk":1600,
+        "defn":0,
+        "level":3
+    },
+    { 
+        "name":"Doma the Angel of Silence",
+        "id":"SDY-015",
+        "atk":1600,
+        "defn":1400,
+        "level":5
+    },
+    { 
+        "name":"Ansatsu",
+        "id":"SDY-016",
+        "atk":1700,
+        "defn":1200,
+        "level":5
+    },
+    { 
+        "name":"Witty Phantom",
+        "id":"SDY-017",
+        "atk":1400,
+        "defn":1300,
+        "level":4
+    },
+    { 
+        "name":"Claw Reacher",
+        "id":"SDY-018",
+        "atk":1000,
+        "defn":800,
+        "level":3
+    },
+    { 
+        "name":"Mystic Clown",
+        "id":"SDY-019",
+        "atk":1500,
+        "defn":1000,
+        "level":4
+    },
+    { 
+        "name":"Ancient Elf",
+        "id":"SDY-024",
+        "atk":1450,
+        "defn":1200,
+        "level":4
+    },
+    { 
+        "name":"Magical Ghost",
+        "id":"SDY-025",
+        "atk":1300,
+        "defn":1400,
+        "level":4
+    },
+    { 
+        "name":"Neo the Magic Swordsman",
+        "id":"SDY-035",
+        "atk":1700,
+        "defn":1000,
+        "level":4
+    },
+    { 
+        "name":"Baron of the Fiend Sword",
+        "id":"SDY-036",
+        "atk":1550,
+        "defn":800,
+        "level":4
+    },
+    { 
+        "name":"Man-Eating Treasure Chest",
+        "id":"SDY-037",
+        "atk":1600,
+        "defn":1000,
+        "level":4
+    },
+    { 
+        "name":"Sorcerer of the Doomed",
+        "id":"SDY-038",
+        "atk":1450,
+        "defn":1200,
+        "level":4
+    }
+]

@@ -8,10 +8,11 @@ class Card():
 class MonsterCard(Card):
     card_type = "Monster"
 
-    def __init__(self, name, card_id, atk, defn):
+    def __init__(self, name, card_id, atk, defn, level):
         Card.__init__(self, name, card_id)
         self.atk = atk
         self.defn = defn
+        self.level = level
 
 class Deck():
     def __init__(self, cards):

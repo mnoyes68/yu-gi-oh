@@ -1,8 +1,8 @@
 import random
 
-class Decisionmaker():
+class DecisionManager():
 	def __init__(self):
 		pass
 
-	def make_decision(move_list):
-		return random.shuffle(move_list)
+	def make_decision(self, move_list):
+		return random.choice(move_list)
