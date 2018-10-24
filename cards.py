@@ -13,6 +13,7 @@ class MonsterCard(Card):
         self.atk = atk
         self.defn = defn
         self.level = level
+        self.attacked_this_turn = False
 
 class Deck():
     def __init__(self, cards):

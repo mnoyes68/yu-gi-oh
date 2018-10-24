@@ -1,4 +1,5 @@
 import cards
+import decisionmanager
 
 class Player():
     def __init__(self, name, deck):
@@ -7,6 +8,8 @@ class Player():
         self.hand = cards.Hand()
         self.board = Board()
         self.life_points = 4000
+        self.memory = []
+        #self.decisionmanager = decisionmanager.DecisionManager()
 
     def draw_card(self):
         c = self.deck.cards.pop(0)
@@ -62,6 +65,8 @@ class Space():
 class ComputerPlayer(Player):
     player_type = "Computer"
 
-    def __init__(self, name, deck):
+    def __init__(self, name, deck, model):
         Player.__init__(self, name, deck)
+        self.decisionmanager = decisionmanager.DecisionManager(model)
+
 
