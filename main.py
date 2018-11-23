@@ -1,28 +1,27 @@
 import cards
 import player
 import game 
-import random
 import json
-from keras.models import Sequential
+import csv
+import os
+from keras.models import Sequential, load_model
 from keras.layers.core import Dense
 from keras.optimizers import sgd
 
 def initialize_network():
     # parameters
-    epsilon = .1  # exploration
-    num_actions = 3  # [move_left, stay, move_right]
-    epoch = 1000
-    max_memory = 500
     hidden_size = 40
-    batch_size = 50
 
     model = Sequential()
+    # model.add(Dense(hidden_size, input_shape=(40,), activation='relu'))
     model.add(Dense(hidden_size, input_shape=(2, 20), activation='relu'))
-    model.add(Dense(hidden_size, activation='relu'))
-    model.add(Dense(num_actions))
+    model.add(Dense(hidden_size, activation='sigmoid'))
+    model.add(Dense(1))
     model.compile(sgd(lr=.2), "mse")
 
-### Code to play the game
+    return model
+
+# Code to play the game
 
 # Create Cards
 def create_deck(json):
@@ -33,25 +32,84 @@ def create_deck(json):
     deck = cards.Deck(deck_list)
     return deck
 
-### main
-if __name__ == "__main__":
-    with open("decks/yugi.json", "r") as deck:
-        deck_json = json.loads(deck.read())
-        yugi_deck = create_deck(deck_json)
-        
-    with open("decks/yugi.json", "r") as deck:
-        deck_json = json.loads(deck.read())
-        opp_deck = create_deck(deck_json)
+def run_training_game(deck_json):
+    yugi_deck = create_deck(deck_json)
+    opp_deck = create_deck(deck_json)
 
-
-    # Create Players
-    yugi = player.ComputerPlayer("Yugi", yugi_deck)
-    opponent = player.ComputerPlayer("Opponent", opp_deck)
+    yugi = player.ComputerPlayer("Yugi", yugi_deck, None)
+    opponent = player.ComputerPlayer("Opponent", opp_deck, None)
 
     ygogame = game.Game(yugi, opponent)
     ygogame.play_game()
+    winner = ygogame.winner
+    print "The winner is " + winner.name
+    if winner == yugi:
+        victory = True
+    else:
+        victory = False
+    return yugi.memory, victory
 
-    print "The winner is " + ygogame.winner.name
+
+# main
+if __name__ == "__main__":
+    #model = initialize_network()
+    #model.load_weights("model.sameweights.h5")
+
+    id_counter = 1
+
+    with open("decks/yugi.json", "r") as deck:
+        deck_json = json.loads(deck.read())
+
+    with open('small_training_data.json', 'w') as data_file, open('small_training_results.csv', 'w') as result_file:
+        fieldnames = ['ID', 'Result']
+        writer = csv.writer(result_file, delimiter=',')
+        writer.writerow(fieldnames)
+        data_file.write('[')
+        #while id_counter < 3250000:
+        for i in range(0,700):
+            memory, victory = run_training_game(deck_json)
+            for state in memory:
+                state['ID'] = id_counter
+                if victory:
+                    writer.writerow([id_counter, 1])
+                else:
+                    writer.writerow([id_counter, 0])
+                json.dump(state, data_file, indent=4)
+                data_file.write(',\n')
+                id_counter += 1
+        data_file.seek(-1, os.SEEK_END)
+        data_file.truncate()
+        data_file.seek(-1, os.SEEK_END)
+        data_file.truncate()
+        data_file.write(']')
+        data_file.close()
+        result_file.close()
+
+    with open('small_test_data.json', 'w') as data_file, open('small_test_results.csv', 'w') as result_file:
+        fieldnames = ['ID', 'Result']
+        writer = csv.writer(result_file, delimiter=',')
+        writer.writerow(fieldnames)
+        data_file.write('[')
+        for i in range(0,300):
+        #while id_counter < 4000000:
+            memory, victory = run_training_game(deck_json)
+            for state in memory:
+                state['ID'] = id_counter
+                if victory:
+                    writer.writerow([id_counter, 1])
+                else:
+                    writer.writerow([id_counter, 0])
+                json.dump(state, data_file, indent=4)
+                data_file.write(',\n')
+                id_counter += 1
+        data_file.seek(-1, os.SEEK_END)
+        data_file.truncate()
+        data_file.seek(-1, os.SEEK_END)
+        data_file.truncate()
+        data_file.write(']')
+        data_file.close()
+        result_file.close()
+
 
 
 

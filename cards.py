@@ -30,3 +30,6 @@ class Hand():
     def add_card(self, card):
         self.cards.append(card)
         return self.cards
+
+    def get_cards():
+        return self.cards

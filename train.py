@@ -1,8 +1,6 @@
 import cards
 import player
 import game
-import actions
-import random
 import json
 import numpy as np
 from keras.models import Sequential
@@ -10,19 +8,23 @@ from keras.layers.core import Dense
 from keras.optimizers import sgd
 import pdb
 
+
 def initialize_network():
     # parameters
     hidden_size = 40
 
     model = Sequential()
     model.add(Dense(hidden_size, input_shape=(40,), activation='relu'))
+    # model.add(Dense(hidden_size, input_shape=(2,20), activation='relu'))
+    # model.add(Dense(hidden_size, input_shape=(20,), activation='relu'))
     model.add(Dense(hidden_size, activation='sigmoid'))
     model.add(Dense(1))
     model.compile(sgd(lr=.2), "mse")
 
     return model
 
-### Code to play the game
+# Code to play the game
+
 
 # Create Cards
 def create_deck(json):
@@ -33,9 +35,10 @@ def create_deck(json):
     deck = cards.Deck(deck_list)
     return deck
 
-### main
+
+# main
 if __name__ == "__main__":
-    epoch = 50000
+    epoch = 50
     memory = []
     results = []
     yugi_win_count = 0

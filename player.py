@@ -67,6 +67,9 @@ class ComputerPlayer(Player):
 
     def __init__(self, name, deck, model):
         Player.__init__(self, name, deck)
-        self.decisionmanager = decisionmanager.DecisionManager(model)
+        if(model == None):
+            self.decisionmanager = decisionmanager.DecisionManager()
+        else:
+            self.decisionmanager = decisionmanager.NetworkDecisionManager(model)
 
 

@@ -1,6 +1,5 @@
-import cards
-import player
 import numpy as np
+
 
 class Action():
     def __init__(self):
@@ -16,8 +15,8 @@ class Action():
 
     def draw_state(self):
         canvas = self.get_canvas()
-        #print canvas
         return canvas
+
 
 class AdvanceTurn(Action):
     def __init__(self):
@@ -29,13 +28,14 @@ class AdvanceTurn(Action):
     def execute_move(self):
         return False
 
+
 class NormalSummon(Action):
     def __init__(self, player, monster):
         self.player = player
         self.monster = monster
 
     def get_name(self):
-        return " Normal Summon " + monster.name
+        return " Normal Summon " + self.monster.name
 
     def check_validity(self):
         if self.monster not in self.player.hand.cards:
@@ -45,16 +45,17 @@ class NormalSummon(Action):
         return True
 
     def execute_move(self):
-        if self.check_validity() == False:
+        if not self.check_validity():
             return False
         card = self.monster
         self.player.hand.cards.remove(self.monster)
         for space in self.player.board.monster_spaces:
-            if space.occupied == False:
+            if not space.occupied:
                 space.add_card(card)
                 break
         print "Summoning " + card.name
         return True
+
 
 class Attack(Action):
     def __init__(self, player, opponent, monster, target):
@@ -64,7 +65,6 @@ class Attack(Action):
         self.target = target
 
     def get_name(self):
-        #return "Attack " + self.target.name + " with " + self.monster.name
         return "Attack {0} ({1}) with {2} ({3})".format(self.target.name, self.target.atk, self.monster.name, self.monster.atk)
 
     def check_validity(self):
@@ -75,7 +75,7 @@ class Attack(Action):
         return True
 
     def execute_move(self):
-        if self.check_validity() == False:
+        if not self.check_validity():
             return False
         print "Attacking " + self.target.name + " with " + self.monster.name
         self.process_attack()
@@ -141,8 +141,8 @@ class Attack(Action):
                 j += 1
                 canvas[i, j] = mnstr.defn
                 j += 1
-        #print canvas
         return canvas
+
 
 class DirectAttack(Action):
     def __init__(self, player, opponent, monster):
@@ -151,17 +151,17 @@ class DirectAttack(Action):
         self.monster = monster
 
     def get_name(self):
-        #return "Attack " + self.opponent.name + " directly with " + self.monster.name
         return "Attack {0} directly with {1} ({2})".format(self.opponent.name, self.monster.name, self.monster.atk)
+
     def check_validity(self):
-        if self.opponent.board.get_occupied_monster_spaces() > 0 :
+        if self.opponent.board.get_occupied_monster_spaces() > 0:
             return False
         if self.player.board.get_occupied_monster_spaces() <= 0:
             return False
         return True
 
     def execute_move(self):
-        if self.check_validity() == False:
+        if not self.check_validity():
             return False
         print "Attacking " + self.opponent.name + " directly with " + self.monster.name
         self.opponent.decrease_life_points(self.monster.atk)
@@ -190,5 +190,4 @@ class DirectAttack(Action):
                 j += 1
                 canvas[i, j] = mnstr.defn
                 j += 1
-        #print canvas
         return canvas

@@ -3,8 +3,7 @@ import player
 import actions
 import random
 import decisionmanager
-
-#decision_manager = decisionmanager.DecisionManager()
+import statedraw
 
 class Game():
     def __init__(self, p1, p2):
@@ -87,6 +86,15 @@ class MainPhase(Phase):
         move = actions.NormalSummon(self.player, card_choice)
         move.execute_move()
 
+    def get_valid_moves(self):
+        move_list = []
+        move_list.append(actions.AdvanceTurn())
+        for card in self.player.hand.get_cards():
+            if isinstance(card, cards.MonsterCard):
+                move = actions.NormalSummon(self.player, card)
+                move_list.append(move)
+        return move_list
+
 class BattlePhase(Phase):
     def __init__(self, player, opponent):
         Phase.__init__(self, player)
@@ -110,11 +118,12 @@ class BattlePhase(Phase):
 
     def execute_phase(self):
         while True:
+            self.player.memory.append(statedraw.write_game_state(self.player, self.opponent))
             move_list = self.get_valid_moves()
             print str(len(move_list)) + " valid moves"
-            move = self.player.decisionmanager.make_network_decision(move_list)
-            self.player.memory.append(move.draw_state().reshape((1, -1)))
-            if move.__class__.__name__ == "AdvanceTurn":
+            move = self.player.decisionmanager.make_decision(move_list)
+            #self.player.memory.append(move.draw_state().reshape((1, -1)))
+            if isinstance(move, actions.AdvanceTurn):
                 break
             move.execute_move()
             if self.player.life_points <= 0 or self.opponent.life_points <= 0:

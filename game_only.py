@@ -1,7 +1,6 @@
 import cards
 import player
 import game 
-import random
 import json
 
 def create_deck(json):
