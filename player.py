@@ -30,21 +30,26 @@ class Board():
     def __init__(self):
         self.monster_spaces = []
         self.magic_trap_spaces = []
+        self.graveyard = []
         for i in range(0,5):
             self.monster_spaces.append(Space("Monster"))
             self.magic_trap_spaces.append(Space("Magic-Trap"))
+
 
     def get_occupied_monster_spaces(self):
         occupied_spaces = [s for s in self.monster_spaces if s.occupied == True]
         return len(occupied_spaces)
 
+
     def get_monsters(self):
         return [s.card for s in self.monster_spaces if s.occupied == True]
+
 
     def destroy_monster(self, monster):
         for space in self.monster_spaces:
             if monster == space.card:
                 space.remove_card()
+                self.graveyard.append(monster)
                 print monster.name + " is now destroyed"
                 break
 

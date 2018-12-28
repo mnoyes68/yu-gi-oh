@@ -1,0 +1,4293 @@
+[{
+    "OpponentMonster1": {
+        "Attack": 800, 
+        "Defense": 2000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 19, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 1, 
+    "PlayerDeckSize": 19, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 19, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 2, 
+    "PlayerDeckSize": 19, 
+    "OppLP": 3500
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2000, 
+        "Defense": 1500, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 18, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 3, 
+    "PlayerDeckSize": 18, 
+    "OppLP": 3500
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2000, 
+        "Defense": 1500, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerLP": 3300, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 4, 
+    "PlayerDeckSize": 17, 
+    "OppLP": 3500
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerLP": 3300, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 5, 
+    "PlayerDeckSize": 17, 
+    "OppLP": 3000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "PlayerLP": 3300, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 16, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 800, 
+        "Defense": 2000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster2": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 6, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 3000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerLP": 3300, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 16, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 800, 
+        "Defense": 2000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 7, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 3000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 3300, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 15, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 800, 
+        "Defense": 2000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1500, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 8, 
+    "PlayerDeckSize": 15, 
+    "OppLP": 2200
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 2550, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 15, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1500, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 9, 
+    "PlayerDeckSize": 15, 
+    "OppLP": 2200
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 2550, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 14, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1500, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1200, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 10, 
+    "PlayerDeckSize": 14, 
+    "OppLP": 2200
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 2550, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 13, 
+    "PlayerMonstersOnBoard": 4, 
+    "PlayerMonster4": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1500, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 6
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 11, 
+    "PlayerDeckSize": 13, 
+    "OppLP": 800
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 19, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 12, 
+    "PlayerDeckSize": 18, 
+    "OppLP": 3750
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 18, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 13, 
+    "PlayerDeckSize": 17, 
+    "OppLP": 3050
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 14, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 3050
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 15, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 1650
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 16, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 50
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 800, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 3800, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 16, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1000, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 17, 
+    "PlayerDeckSize": 15, 
+    "OppLP": 50
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 800, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 3100, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 15, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1000, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 2300, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 18, 
+    "PlayerDeckSize": 14, 
+    "OppLP": 50
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 800, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 3100, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 14, 
+    "PlayerMonstersOnBoard": 4, 
+    "PlayerMonster4": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1000, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 3, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1200, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OpponentMonster2": {
+        "Attack": 2300, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 19, 
+    "PlayerDeckSize": 13, 
+    "OppLP": 50
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 800, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 2800, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 14, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1000, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 3, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1200, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OpponentMonster2": {
+        "Attack": 2300, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 20, 
+    "PlayerDeckSize": 13, 
+    "OppLP": 50
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 19, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 21, 
+    "PlayerDeckSize": 18, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 18, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 22, 
+    "PlayerDeckSize": 17, 
+    "OppLP": 3700
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 2000, 
+        "Defense": 1500, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 23, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 3500
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 2000, 
+        "Defense": 1500, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 24, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 1500
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 16, 
+    "PlayerMonstersOnBoard": 4, 
+    "PlayerMonster4": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerMonster3": {
+        "Attack": 2000, 
+        "Defense": 1500, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1600, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 25, 
+    "PlayerDeckSize": 15, 
+    "OppLP": 1500
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerLP": 3100, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 16, 
+    "PlayerMonstersOnBoard": 3, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerMonster2": {
+        "Attack": 2000, 
+        "Defense": 1500, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1550, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 26, 
+    "PlayerDeckSize": 15, 
+    "OppLP": 1500
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerLP": 2150, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 16, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2000, 
+        "Defense": 1500, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 27, 
+    "PlayerDeckSize": 15, 
+    "OppLP": 1500
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerLP": 1650, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 15, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1000, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 28, 
+    "PlayerDeckSize": 14, 
+    "OppLP": 1200
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerLP": 750, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 15, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1000, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 29, 
+    "PlayerDeckSize": 14, 
+    "OppLP": 1200
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerLP": 750, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 14, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1000, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 30, 
+    "PlayerDeckSize": 13, 
+    "OppLP": 1200
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerLP": 300, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 14, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 31, 
+    "PlayerDeckSize": 13, 
+    "OppLP": 1200
+},
+{
+    "OpponentMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "PlayerLP": 250, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 13, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1700, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 5
+    }, 
+    "OppMonstersOnBoard": 3, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1200, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 32, 
+    "PlayerDeckSize": 12, 
+    "OppLP": 1200
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 19, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 33, 
+    "PlayerDeckSize": 19, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 19, 
+    "PlayerMonstersOnBoard": 0, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OppMonstersOnBoard": 0, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 34, 
+    "PlayerDeckSize": 19, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 18, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 800, 
+        "Defense": 2000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 35, 
+    "PlayerDeckSize": 18, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 3400, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1000, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 36, 
+    "PlayerDeckSize": 17, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 2950, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 0, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 37, 
+    "PlayerDeckSize": 17, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1300, 
+        "Defense": 2000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 4000, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 19, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1200, 
+        "Defense": 800, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 38, 
+    "PlayerDeckSize": 19, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1300, 
+        "Defense": 2000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 3600, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 18, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 39, 
+    "PlayerDeckSize": 18, 
+    "OppLP": 4000
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerLP": 3600, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 18, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 1, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 40, 
+    "PlayerDeckSize": 18, 
+    "OppLP": 3850
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 3600, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 41, 
+    "PlayerDeckSize": 17, 
+    "OppLP": 3850
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 3400, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 17, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 42, 
+    "PlayerDeckSize": 17, 
+    "OppLP": 3850
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 3250, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 16, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 3, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1200, 
+        "Defense": 1500, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 43, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 3850
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 3250, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 16, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 2, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 44, 
+    "PlayerDeckSize": 16, 
+    "OppLP": 3750
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 2850, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 15, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1300, 
+        "Defense": 1400, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 3, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 45, 
+    "PlayerDeckSize": 15, 
+    "OppLP": 3750
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 1650, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 14, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 4, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 46, 
+    "PlayerDeckSize": 14, 
+    "OppLP": 3750
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 1650, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 13, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 5, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "OpponentMonster5": {
+        "Attack": 1400, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "ID": 47, 
+    "PlayerDeckSize": 13, 
+    "OppLP": 3750
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 1650, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 13, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1450, 
+        "Defense": 1200, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 4, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 48, 
+    "PlayerDeckSize": 13, 
+    "OppLP": 3450
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 1500, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 13, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 4, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 49, 
+    "PlayerDeckSize": 13, 
+    "OppLP": 3450
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 1500, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 12, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "OppMonstersOnBoard": 4, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 2500, 
+        "Defense": 2100, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 7
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 50, 
+    "PlayerDeckSize": 12, 
+    "OppLP": 3150
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 1500, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 12, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 3, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 51, 
+    "PlayerDeckSize": 12, 
+    "OppLP": 3150
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 1500, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 11, 
+    "PlayerMonstersOnBoard": 2, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster1": {
+        "Attack": 800, 
+        "Defense": 2000, 
+        "AttackedThisTurn": 0, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 3, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 52, 
+    "PlayerDeckSize": 11, 
+    "OppLP": 2650
+},
+{
+    "OpponentMonster1": {
+        "Attack": 1600, 
+        "Defense": 0, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 3
+    }, 
+    "PlayerLP": 600, 
+    "PlayerHandSize": 5, 
+    "OppDeckSize": 11, 
+    "PlayerMonstersOnBoard": 1, 
+    "PlayerMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster3": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster2": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "PlayerMonster1": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OppMonstersOnBoard": 3, 
+    "OppHandSize": 5, 
+    "OpponentMonster3": {
+        "Attack": 1700, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "OpponentMonster2": {
+        "Attack": 1600, 
+        "Defense": 1000, 
+        "AttackedThisTurn": 1, 
+        "Exists": 1, 
+        "Level": 4
+    }, 
+    "PlayerMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster4": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "OpponentMonster5": {
+        "Attack": 0, 
+        "Defense": 0, 
+        "AttackedThisTurn": 0, 
+        "Exists": 0, 
+        "Level": 0
+    }, 
+    "ID": 53, 
+    "PlayerDeckSize": 11, 
+    "OppLP": 2650
+}]

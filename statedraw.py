@@ -22,17 +22,10 @@ def write_game_state(player, opponent):
         if i < len(player_monsters):
             monster = player_monsters[i]
             monster_state = write_monster_card(monster)
-            game_state[prefix + 'Exists'] = 1
-            game_state[prefix + 'Attack'] = monster_state['Attack']
-            game_state[prefix + 'Defense'] = monster_state['Defense']
-            game_state[prefix + 'Level'] = monster_state['Level']
-            game_state[prefix + 'AttackedThisTurn'] = monster_state['AttackedThisTurn']
+            game_state[prefix] = monster_state
         else:
-            game_state[prefix + 'Exists'] = 0
-            game_state[prefix + 'Attack'] = 0
-            game_state[prefix + 'Defense'] = 0
-            game_state[prefix + 'Level'] = 0
-            game_state[prefix + 'AttackedThisTurn'] = 0
+            monster_state = write_monster_card(None)
+            game_state[prefix] = monster_state
 
     # Opponent Board Info
     opp_monsters = opponent.board.get_monsters()
@@ -41,29 +34,31 @@ def write_game_state(player, opponent):
         if i < len(opp_monsters):
             monster = opp_monsters[i]
             monster_state = write_monster_card(monster)
-            game_state[prefix + 'Exists'] = 1
-            game_state[prefix + 'Attack'] = monster_state['Attack']
-            game_state[prefix + 'Defense'] = monster_state['Defense']
-            game_state[prefix + 'Level'] = monster_state['Level']
-            game_state[prefix + 'AttackedThisTurn'] = monster_state['AttackedThisTurn']
+            game_state[prefix] = monster_state
         else:
-            game_state[prefix + 'Exists'] = 0
-            game_state[prefix + 'Attack'] = 0
-            game_state[prefix + 'Defense'] = 0
-            game_state[prefix + 'Level'] = 0
-            game_state[prefix + 'AttackedThisTurn'] = 0
+            monster_state = write_monster_card(None)
+            game_state[prefix] = monster_state
+
     return game_state
 
 
 def write_monster_card(monster):
     card_state = {}
-    card_state['Attack'] = monster.atk
-    card_state['Defense'] = monster.defn
-    card_state['Level'] = monster.level
-    if(monster.attacked_this_turn):
-        card_state['AttackedThisTurn'] = 1
+    if monster != None:
+        card_state['Exists'] = 1
+        card_state['Attack'] = monster.atk
+        card_state['Defense'] = monster.defn
+        card_state['Level'] = monster.level
+        if(monster.attacked_this_turn):
+            card_state['AttackedThisTurn'] = 1
+        else:
+            card_state['AttackedThisTurn'] = 0
+        return card_state
     else:
+        card_state['Exists'] = 0
+        card_state['Attack'] = 0
+        card_state['Defense'] = 0
+        card_state['Level'] = 0
         card_state['AttackedThisTurn'] = 0
-    return card_state
-
+        return card_state
 

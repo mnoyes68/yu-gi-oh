@@ -11,6 +11,7 @@ from keras.models import Sequential
 from keras.layers import Activation
 from keras.layers import BatchNormalization
 from keras.layers import Dense
+from keras.layers import Flatten
 from keras import regularizers
 
 scaler = preprocessing.MinMaxScaler()
@@ -22,6 +23,10 @@ with zipfile.ZipFile("./training_data.json.zip", "r") as z:
     #X = dfx.values
     y = dfy.values[:,1]
     model = Sequential()
+    # Convolutional
+
+    model.add(Flatten())
+    # Feed Forward
     model.add(Dense(100, input_dim=59, activation="relu", kernel_regularizer=regularizers.l2(0.0002)))
     model.add(BatchNormalization())
     model.add(Dense(50, activation="relu", kernel_regularizer=regularizers.l2(0.0002)))

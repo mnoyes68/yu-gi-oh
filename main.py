@@ -60,13 +60,13 @@ if __name__ == "__main__":
     with open("decks/yugi.json", "r") as deck:
         deck_json = json.loads(deck.read())
 
-    with open('small_training_data.json', 'w') as data_file, open('small_training_results.csv', 'w') as result_file:
+    with open('conv_training_data.json', 'w') as data_file, open('conv_training_results.csv', 'w') as result_file:
         fieldnames = ['ID', 'Result']
         writer = csv.writer(result_file, delimiter=',')
         writer.writerow(fieldnames)
         data_file.write('[')
         #while id_counter < 3250000:
-        for i in range(0,700):
+        for i in range(0,5):
             memory, victory = run_training_game(deck_json)
             for state in memory:
                 state['ID'] = id_counter
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         data_file.write(']')
         data_file.close()
         result_file.close()
-
+    '''
     with open('small_test_data.json', 'w') as data_file, open('small_test_results.csv', 'w') as result_file:
         fieldnames = ['ID', 'Result']
         writer = csv.writer(result_file, delimiter=',')
@@ -109,6 +109,7 @@ if __name__ == "__main__":
         data_file.write(']')
         data_file.close()
         result_file.close()
+        '''
 
 
 
