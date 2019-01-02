@@ -1,6 +1,8 @@
 import cards
 import player
-import game 
+import game
+
+import logging
 import json
 import csv
 import os
@@ -30,6 +32,7 @@ def run_game(deck_json):
 
 # main
 if __name__ == "__main__":
+    logging.basicConfig(filename='buildmcts.log', level=logging.INFO)
     with open("decks/yugi.json", "r") as deck:
         deck_json = json.loads(deck.read())
     run_game(deck_json)

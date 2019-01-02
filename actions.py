@@ -1,9 +1,10 @@
 import numpy as np
 
+import logging
 
 class Action():
-    def __init__(self):
-        pass
+    def __init__(self, is_sim=False):
+        self.is_sim = is_sim
 
     def get_name(self):
         return ""
@@ -13,24 +14,34 @@ class Action():
         canvas = np.zeros(shape)
         return canvas
 
-    def draw_state(self):
-        canvas = self.get_canvas()
-        return canvas
-
 
 class AdvanceTurn(Action):
-    def __init__(self):
-        pass
+    def __init__(self, is_sim=False):
+        Action.__init__(self, is_sim)
+
 
     def get_name(self):
         return "Advance Turn"
+
 
     def execute_move(self):
         return False
 
 
+    def __eq__(self, other):
+        return isinstance(other, AdvanceTurn)
+
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def __hash__(self):
+        return hash("AdvanceTurn")
+
+
 class NormalSummon(Action):
-    def __init__(self, player, monster):
+    def __init__(self, player, monster, is_sim=False):
+        Action.__init__(self, is_sim)
         self.player = player
         self.monster = monster
 
@@ -53,12 +64,17 @@ class NormalSummon(Action):
             if not space.occupied:
                 space.add_card(card)
                 break
-        print "Summoning " + card.name
+        message = "Summoning " + card.name
+        if self.is_sim:
+            logging.debug(message)
+        else:
+            logging.info(message)
         return True
 
 
 class Attack(Action):
-    def __init__(self, player, opponent, monster, target):
+    def __init__(self, player, opponent, monster, target, is_sim=False):
+        Action.__init__(self, is_sim)
         self.player = player
         self.opponent = opponent
         self.monster = monster
@@ -77,7 +93,11 @@ class Attack(Action):
     def execute_move(self):
         if not self.check_validity():
             return False
-        print "Attacking " + self.target.name + " with " + self.monster.name
+        message = "Attacking " + self.target.name + " with " + self.monster.name
+        if self.is_sim:
+            logging.debug(message)
+        else:
+            logging.info(message)
         self.process_attack()
         self.monster.attacked_this_turn = True
         return True
@@ -95,57 +115,23 @@ class Attack(Action):
             self.opponent.board.destroy_monster(self.target)
             self.player.board.destroy_monster(self.monster)
 
-    def draw_state(self):
-        canvas = self.get_canvas()
-        i, j = 0, 0
-        canvas[i, j] = 1
-        j += 1
-        canvas[i, j] = self.monster.level
-        j += 1
-        canvas[i, j] = self.monster.atk
-        j += 1
-        canvas[i, j] = self.monster.defn
-        j += 1
+    def __eq__(self, other):
+        if isinstance(other, Attack):
+            return self.monster == other.monster and self.target == other.target
+        return False
 
-        for mnstr in self.player.board.get_monsters():
-            if mnstr != self.monster:
-                canvas[i, j] = 1
-                j += 1
-                canvas[i, j] = mnstr.level
-                j += 1
-                canvas[i, j] = mnstr.atk
-                j += 1
-                canvas[i, j] = mnstr.defn
-                j += 1
 
-        # Flip sides
-        i += 1
-        j=0
+    def __ne__(self, other):
+        return not self.__eq__(other)
 
-        canvas[i, j] = 1
-        j += 1
-        canvas[i, j] = self.target.level
-        j += 1
-        canvas[i, j] = self.target.atk
-        j += 1
-        canvas[i, j] = self.target.defn
-        j += 1
 
-        for mnstr in self.opponent.board.get_monsters():
-            if mnstr != self.target:
-                canvas[i, j] = 1
-                j += 1
-                canvas[i, j] = mnstr.level
-                j += 1
-                canvas[i, j] = mnstr.atk
-                j += 1
-                canvas[i, j] = mnstr.defn
-                j += 1
-        return canvas
+    def __hash__(self):
+        return hash("Attack:" + self.monster.card_id + ":" + self.target.card_id)
 
 
 class DirectAttack(Action):
-    def __init__(self, player, opponent, monster):
+    def __init__(self, player, opponent, monster, is_sim=False):
+        Action.__init__(self, is_sim)
         self.player = player
         self.opponent = opponent
         self.monster = monster
@@ -163,31 +149,27 @@ class DirectAttack(Action):
     def execute_move(self):
         if not self.check_validity():
             return False
-        print "Attacking " + self.opponent.name + " directly with " + self.monster.name
+        message = "Attacking " + self.opponent.name + " directly with " + self.monster.name
+        if self.is_sim:
+            logging.debug(message)
+        else:
+            logging.info(message)
         self.opponent.decrease_life_points(self.monster.atk)
         self.monster.attacked_this_turn = True
         return True
 
-    def draw_state(self):
-        canvas = self.get_canvas()
-        i, j = 0, 0
-        canvas[i, j] = 1
-        j += 1
-        canvas[i, j] = self.monster.level
-        j += 1
-        canvas[i, j] = self.monster.atk
-        j += 1
-        canvas[i, j] = self.monster.defn
-        j += 1
 
-        for mnstr in self.player.board.get_monsters():
-            if mnstr != self.monster:
-                canvas[i, j] = 1
-                j += 1
-                canvas[i, j] = mnstr.level
-                j += 1
-                canvas[i, j] = mnstr.atk
-                j += 1
-                canvas[i, j] = mnstr.defn
-                j += 1
-        return canvas
+    def __eq__(self, other):
+        if isinstance(other, DirectAttack):
+            return self.monster == other.monster
+        return False
+
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+
+    def __hash__(self):
+        return hash("DirectAttack:" + self.monster.card_id)
+
+

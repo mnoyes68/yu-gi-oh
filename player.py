@@ -1,36 +1,59 @@
 import cards
 import decisionmanager
 
+import logging
+
 class Player():
-    def __init__(self, name, deck):
+    def __init__(self, name, deck, is_sim=False):
         self.name = name
         self.deck = deck
         self.hand = cards.Hand()
-        self.board = Board()
+        self.board = Board(is_sim=is_sim)
         self.life_points = 4000
+        self.is_sim = is_sim
         self.memory = []
         #self.decisionmanager = decisionmanager.DecisionManager()
+
 
     def draw_card(self):
         c = self.deck.cards.pop(0)
         self.hand.cards.append(c)
-        print self.name + " drew " + c.name
+        message = self.name + " drew " + c.name
+        if self.is_sim:
+            logging.debug(message)
+        else:
+            logging.info(message)
+
 
     def increase_life_points(self, amount):
         self.life_points += amount
+
 
     def decrease_life_points(self, amount):
         self.life_points -= amount
         if self.life_points <= 0:
             self.life_points = 0
-            print "GAME OVER!"
-        print self.name + "'s life points are now " + str(self.life_points)
+            if self.is_sim:
+                logging.debug("GAME OVER!")
+            else:
+                logging.info("GAME OVER!")
+        message = self.name + "'s life points are now " + str(self.life_points)
+        if self.is_sim:
+            logging.debug(message)
+        else:
+            logging.info(message)
+
+
+    def set_as_sim(self):
+        self.is_sim = True
+        self.board.is_sim = True
 
 class Board():
-    def __init__(self):
+    def __init__(self, is_sim=False):
         self.monster_spaces = []
         self.magic_trap_spaces = []
         self.graveyard = []
+        self.is_sim = is_sim
         for i in range(0,5):
             self.monster_spaces.append(Space("Monster"))
             self.magic_trap_spaces.append(Space("Magic-Trap"))
@@ -50,7 +73,11 @@ class Board():
             if monster == space.card:
                 space.remove_card()
                 self.graveyard.append(monster)
-                print monster.name + " is now destroyed"
+                message = monster.name + " is now destroyed"
+                if self.is_sim:
+                    logging.debug(message)
+                else:
+                    logging.info(message)
                 break
 
 class Space():

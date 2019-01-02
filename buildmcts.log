@@ -1,0 +1,75 @@
+INFO:root:Yugi drew Ancient Elf
+INFO:root:Opponent drew Baron of the Fiend Sword
+INFO:root:Yugi drew Curse of Dragon
+INFO:root:Opponent drew Summoned Skull
+INFO:root:Yugi drew Mystic Clown
+INFO:root:Opponent drew Silver Fang
+INFO:root:Yugi drew Claw Reacher
+INFO:root:Opponent drew Mammoth Graveyard
+INFO:root:Yugi drew Mystical Elf
+INFO:root:Opponent drew Dragon Zombie
+INFO:root:
+BEGIN GAME!!!
+
+INFO:root:Yugi goes first
+INFO:root:Yugi drew Beaver Warrior
+INFO:root:Summoning Beaver Warrior
+INFO:root:It is now Opponent's Turn
+INFO:root:Opponent drew Ancient Elf
+INFO:root:Summoning Baron of the Fiend Sword
+INFO:root:2 valid moves
+INFO:root:Advance Turn: 0.566014669927
+INFO:root:Attack Beaver Warrior (1200) with Baron of the Fiend Sword (1550): 0.572890025575
+INFO:root:Attacking Beaver Warrior with Baron of the Fiend Sword
+INFO:root:Beaver Warrior is now destroyed
+INFO:root:Yugi's life points are now 3650
+INFO:root:1 valid moves
+INFO:root:Advance Turn: 0.59375
+INFO:root:It is now Yugi's Turn
+INFO:root:Yugi drew Dragon Zombie
+INFO:root:Summoning Ancient Elf
+INFO:root:2 valid moves
+INFO:root:Advance Turn: 0.348246674728
+INFO:root:Attack Baron of the Fiend Sword (1550) with Ancient Elf (1450): 0.249676584735
+INFO:root:It is now Opponent's Turn
+INFO:root:Opponent drew Mystic Clown
+INFO:root:Summoning Mystic Clown
+INFO:root:3 valid moves
+INFO:root:Advance Turn: 0.661048689139
+INFO:root:Attack Ancient Elf (1450) with Mystic Clown (1500): 0.719535783366
+INFO:root:Attack Ancient Elf (1450) with Baron of the Fiend Sword (1550): 0.697632058288
+INFO:root:Attacking Ancient Elf with Mystic Clown
+INFO:root:Ancient Elf is now destroyed
+INFO:root:Yugi's life points are now 3600
+INFO:root:2 valid moves
+INFO:root:Advance Turn: 0.666246851385
+INFO:root:Attack Yugi directly with Baron of the Fiend Sword (1550): 0.736972704715
+INFO:root:Attacking Yugi directly with Baron of the Fiend Sword
+INFO:root:Yugi's life points are now 2050
+INFO:root:1 valid moves
+INFO:root:Advance Turn: 0.731875
+INFO:root:It is now Yugi's Turn
+INFO:root:Yugi drew Mammoth Graveyard
+INFO:root:Summoning Claw Reacher
+INFO:root:3 valid moves
+INFO:root:Advance Turn: 0.146025878004
+INFO:root:Attack Baron of the Fiend Sword (1550) with Claw Reacher (1000): 0.0609318996416
+INFO:root:Attack Mystic Clown (1500) with Claw Reacher (1000): 0.0778443113772
+INFO:root:It is now Opponent's Turn
+INFO:root:Opponent drew Dark Magician
+INFO:root:Summoning Dragon Zombie
+INFO:root:4 valid moves
+INFO:root:Advance Turn: 0.823218997361
+INFO:root:Attack Claw Reacher (1000) with Baron of the Fiend Sword (1550): 0.950131233596
+INFO:root:Attack Claw Reacher (1000) with Dragon Zombie (1600): 0.946601941748
+INFO:root:Attack Claw Reacher (1000) with Mystic Clown (1500): 0.941588785047
+INFO:root:Attacking Claw Reacher with Baron of the Fiend Sword
+INFO:root:Claw Reacher is now destroyed
+INFO:root:Yugi's life points are now 1500
+INFO:root:3 valid moves
+INFO:root:Advance Turn: 0.862132352941
+INFO:root:Attack Yugi directly with Dragon Zombie (1600): 1.0
+INFO:root:Attack Yugi directly with Mystic Clown (1500): 1.0
+INFO:root:Attacking Yugi directly with Dragon Zombie
+INFO:root:GAME OVER!
+INFO:root:Yugi's life points are now 0
