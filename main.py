@@ -4,6 +4,8 @@ import game
 import json
 import csv
 import os
+import logging
+
 from keras.models import Sequential, load_model
 from keras.layers.core import Dense
 from keras.optimizers import sgd
@@ -54,6 +56,8 @@ def run_training_game(deck_json):
 if __name__ == "__main__":
     #model = initialize_network()
     #model.load_weights("model.sameweights.h5")
+
+    logging.basicConfig(filename='yugioh_game.log', level=logging.INFO, filemode='w')
 
     id_counter = 1
 

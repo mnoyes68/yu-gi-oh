@@ -115,6 +115,7 @@ class Attack(Action):
             self.opponent.board.destroy_monster(self.target)
             self.player.board.destroy_monster(self.monster)
 
+
     def __eq__(self, other):
         if isinstance(other, Attack):
             return self.monster == other.monster and self.target == other.target

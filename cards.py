@@ -1,3 +1,4 @@
+import logging
 import random
 import copy
 
@@ -18,7 +19,7 @@ class Card():
 
 
     def __hash__(self):
-        return hash(self.card_id)
+        return hash("Card:" + self.card_id)
 
 
 class MonsterCard(Card):
@@ -43,7 +44,12 @@ class Deck():
 
 
     def add_card(self, card):
+        logging.debug('Adding ' + card.name)
         self.cards.append(card)
+
+
+    def get_size(self):
+        return len(self.cards)
 
 
 class Hand():
@@ -52,11 +58,13 @@ class Hand():
 
 
     def add_card(self, card):
+        logging.debug('Adding ' + card.name)
         self.cards.append(card)
         return self.cards
 
 
     def remove_card(self, card):
+        logging.debug('Removing ' + card.name)
         self.cards.remove(card)
 
 
@@ -66,6 +74,20 @@ class Hand():
 
     def get_size(self):
         return len(self.cards)
+
+
+    def __eq__(self, other):
+        if isinstance(other, Hand):
+            if self.get_size() != other.get_size():
+                return False
+            my_cards = sorted(self.get_cards(), key=lambda x: x.card_id)
+            op_cards = sorted(other.get_cards(), key=lambda x: x.card_id)
+            return my_cards == op_cards
+        return False
+
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
 
 
 
