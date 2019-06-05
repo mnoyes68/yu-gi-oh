@@ -1,4 +1,5 @@
 *.pyc
-training_results.csv
-test.log
+*.csv
+*.log
+*.json
 /data/
