@@ -1,0 +1,633 @@
+Yugi drew Claw Reacher
+Opponent drew Ansatsu
+Yugi drew Celtic Guardian
+Opponent drew Mystical Elf
+Yugi drew Mystical Elf
+Opponent drew Magical Ghost
+Yugi drew Dragon Zombie
+Opponent drew Neo the Magic Swordsman
+Yugi drew Neo the Magic Swordsman
+Opponent drew Curse of Dragon
+
+BEGIN GAME!!!
+
+Yugi goes first
+Yugi drew Doma the Angel of Silence
+Summoning Claw Reacher
+It is now Opponent's Turn
+Opponent drew Giant Soldier of Stone
+Summoning Mystical Elf
+Battle Phase Turn Number 2
+2 valid moves
+Advance Turn
+Attack Claw Reacher (1000) with Mystical Elf (800)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 21/67 , 0.313432835821
+Attack Claw Reacher (1000) with Mystical Elf (800) 30/65 , 0.461538461538
+Attacking Claw Reacher with Mystical Elf
+Mystical Elf is now destroyed
+Opponent's life points are now 3800
+1 valid moves
+Advance Turn
+It is now Yugi's Turn
+Yugi drew Magical Ghost
+Summoning Dragon Zombie
+Battle Phase Turn Number 3
+3 valid moves
+Advance Turn
+Attack Opponent directly with Claw Reacher (1000)
+Attack Opponent directly with Dragon Zombie (1600)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 48/70 , 0.685714285714
+Attack Opponent directly with Claw Reacher (1000) 47/71 , 0.661971830986
+Attack Opponent directly with Dragon Zombie (1600) 39/71 , 0.549295774648
+It is now Opponent's Turn
+Opponent drew Claw Reacher
+Summoning Curse of Dragon
+Battle Phase Turn Number 4
+3 valid moves
+Advance Turn
+Attack Claw Reacher (1000) with Curse of Dragon (2000)
+Attack Dragon Zombie (1600) with Curse of Dragon (2000)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 32/43 , 0.744186046512
+Attack Claw Reacher (1000) with Curse of Dragon (2000) 28/42 , 0.666666666667
+Attack Dragon Zombie (1600) with Curse of Dragon (2000) 28/41 , 0.682926829268
+It is now Yugi's Turn
+Yugi drew Giant Soldier of Stone
+Summoning Mystical Elf
+Battle Phase Turn Number 5
+4 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Claw Reacher (1000)
+Attack Curse of Dragon (2000) with Dragon Zombie (1600)
+Attack Curse of Dragon (2000) with Mystical Elf (800)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 0/70 , 0.0
+Attack Curse of Dragon (2000) with Claw Reacher (1000) 3/70 , 0.0428571428571
+Attack Curse of Dragon (2000) with Dragon Zombie (1600) 0/70 , 0.0
+Attack Curse of Dragon (2000) with Mystical Elf (800) 4/73 , 0.0547945205479
+Attacking Curse of Dragon with Mystical Elf
+Mystical Elf is now destroyed
+Yugi's life points are now 2800
+3 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Claw Reacher (1000)
+Attack Curse of Dragon (2000) with Dragon Zombie (1600)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 3/71 , 0.0422535211268
+Attack Curse of Dragon (2000) with Claw Reacher (1000) 0/71 , 0.0
+Attack Curse of Dragon (2000) with Dragon Zombie (1600) 4/70 , 0.0571428571429
+Attacking Curse of Dragon with Dragon Zombie
+Dragon Zombie is now destroyed
+Yugi's life points are now 2400
+2 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Claw Reacher (1000)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 3/66 , 0.0454545454545
+Attack Curse of Dragon (2000) with Claw Reacher (1000) 0/65 , 0.0
+It is now Opponent's Turn
+Opponent drew Man-Eating Treasure Chest
+Summoning Neo the Magic Swordsman
+Battle Phase Turn Number 6
+3 valid moves
+Advance Turn
+Attack Claw Reacher (1000) with Curse of Dragon (2000)
+Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 64/65 , 0.984615384615
+Attack Claw Reacher (1000) with Curse of Dragon (2000) 62/63 , 0.984126984127
+Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700) 61/63 , 0.968253968254
+It is now Yugi's Turn
+Yugi drew Gaia the Fierce Knight
+Summoning Doma the Angel of Silence
+Battle Phase Turn Number 7
+5 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Claw Reacher (1000)
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
+Attack Curse of Dragon (2000) with Doma the Angel of Silence (1600)
+Attack Neo the Magic Swordsman (1700) with Doma the Angel of Silence (1600)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 15/61 , 0.245901639344
+Attack Curse of Dragon (2000) with Claw Reacher (1000) 0/61 , 0.0
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 3/58 , 0.051724137931
+Attack Curse of Dragon (2000) with Doma the Angel of Silence (1600) 0/58 , 0.0
+Attack Neo the Magic Swordsman (1700) with Doma the Angel of Silence (1600) 6/58 , 0.103448275862
+It is now Opponent's Turn
+Opponent drew Summoned Skull
+Summoning Summoned Skull
+Battle Phase Turn Number 8
+7 valid moves
+Advance Turn
+Attack Claw Reacher (1000) with Curse of Dragon (2000)
+Attack Doma the Angel of Silence (1600) with Curse of Dragon (2000)
+Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700)
+Attack Doma the Angel of Silence (1600) with Neo the Magic Swordsman (1700)
+Attack Claw Reacher (1000) with Summoned Skull (2500)
+Attack Doma the Angel of Silence (1600) with Summoned Skull (2500)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 36/37 , 0.972972972973
+Attack Claw Reacher (1000) with Curse of Dragon (2000) 35/36 , 0.972222222222
+Attack Doma the Angel of Silence (1600) with Curse of Dragon (2000) 36/37 , 0.972972972973
+Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700) 36/37 , 0.972972972973
+Attack Doma the Angel of Silence (1600) with Neo the Magic Swordsman (1700) 36/37 , 0.972972972973
+Attack Claw Reacher (1000) with Summoned Skull (2500) 33/34 , 0.970588235294
+Attack Doma the Angel of Silence (1600) with Summoned Skull (2500) 33/34 , 0.970588235294
+It is now Yugi's Turn
+Yugi drew Dark Magician
+Summoning Giant Soldier of Stone
+Battle Phase Turn Number 9
+10 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Claw Reacher (1000)
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
+Attack Summoned Skull (2500) with Claw Reacher (1000)
+Attack Curse of Dragon (2000) with Doma the Angel of Silence (1600)
+Attack Neo the Magic Swordsman (1700) with Doma the Angel of Silence (1600)
+Attack Summoned Skull (2500) with Doma the Angel of Silence (1600)
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300)
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300)
+Attack Summoned Skull (2500) with Giant Soldier of Stone (1300)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 0/22 , 0.0
+Attack Curse of Dragon (2000) with Claw Reacher (1000) 0/21 , 0.0
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 0/22 , 0.0
+Attack Summoned Skull (2500) with Claw Reacher (1000) 0/22 , 0.0
+Attack Curse of Dragon (2000) with Doma the Angel of Silence (1600) 0/22 , 0.0
+Attack Neo the Magic Swordsman (1700) with Doma the Angel of Silence (1600) 0/22 , 0.0
+Attack Summoned Skull (2500) with Doma the Angel of Silence (1600) 0/22 , 0.0
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300) 0/22 , 0.0
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300) 0/15 , 0.0
+Attack Summoned Skull (2500) with Giant Soldier of Stone (1300) 0/15 , 0.0
+It is now Opponent's Turn
+Opponent drew Witty Phantom
+Summoning Witty Phantom
+Battle Phase Turn Number 10
+13 valid moves
+Advance Turn
+Attack Claw Reacher (1000) with Curse of Dragon (2000)
+Attack Doma the Angel of Silence (1600) with Curse of Dragon (2000)
+Attack Giant Soldier of Stone (1300) with Curse of Dragon (2000)
+Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700)
+Attack Doma the Angel of Silence (1600) with Neo the Magic Swordsman (1700)
+Attack Giant Soldier of Stone (1300) with Neo the Magic Swordsman (1700)
+Attack Claw Reacher (1000) with Summoned Skull (2500)
+Attack Doma the Angel of Silence (1600) with Summoned Skull (2500)
+Attack Giant Soldier of Stone (1300) with Summoned Skull (2500)
+Attack Claw Reacher (1000) with Witty Phantom (1400)
+Attack Doma the Angel of Silence (1600) with Witty Phantom (1400)
+Attack Giant Soldier of Stone (1300) with Witty Phantom (1400)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 7/8 , 0.875
+Attack Claw Reacher (1000) with Curse of Dragon (2000) 7/8 , 0.875
+Attack Doma the Angel of Silence (1600) with Curse of Dragon (2000) 7/8 , 0.875
+Attack Giant Soldier of Stone (1300) with Curse of Dragon (2000) 7/8 , 0.875
+Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700) 7/8 , 0.875
+Attack Doma the Angel of Silence (1600) with Neo the Magic Swordsman (1700) 7/8 , 0.875
+Attack Giant Soldier of Stone (1300) with Neo the Magic Swordsman (1700) 7/8 , 0.875
+Attack Claw Reacher (1000) with Summoned Skull (2500) 7/8 , 0.875
+Attack Doma the Angel of Silence (1600) with Summoned Skull (2500) 7/8 , 0.875
+Attack Giant Soldier of Stone (1300) with Summoned Skull (2500) 6/7 , 0.857142857143
+Attack Claw Reacher (1000) with Witty Phantom (1400) 6/7 , 0.857142857143
+Attack Doma the Angel of Silence (1600) with Witty Phantom (1400) 6/7 , 0.857142857143
+Attack Giant Soldier of Stone (1300) with Witty Phantom (1400) 6/7 , 0.857142857143
+It is now Yugi's Turn
+Yugi drew Winged Dragon, Guardian of the Fortress #1
+Summoning Dark Magician
+Battle Phase Turn Number 11
+17 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Claw Reacher (1000)
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
+Attack Summoned Skull (2500) with Claw Reacher (1000)
+Attack Witty Phantom (1400) with Claw Reacher (1000)
+Attack Curse of Dragon (2000) with Doma the Angel of Silence (1600)
+Attack Neo the Magic Swordsman (1700) with Doma the Angel of Silence (1600)
+Attack Summoned Skull (2500) with Doma the Angel of Silence (1600)
+Attack Witty Phantom (1400) with Doma the Angel of Silence (1600)
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300)
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300)
+Attack Summoned Skull (2500) with Giant Soldier of Stone (1300)
+Attack Witty Phantom (1400) with Giant Soldier of Stone (1300)
+Attack Curse of Dragon (2000) with Dark Magician (2500)
+Attack Neo the Magic Swordsman (1700) with Dark Magician (2500)
+Attack Summoned Skull (2500) with Dark Magician (2500)
+Attack Witty Phantom (1400) with Dark Magician (2500)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 1/6 , 0.166666666667
+Attack Curse of Dragon (2000) with Claw Reacher (1000) 1/6 , 0.166666666667
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 0/6 , 0.0
+Attack Summoned Skull (2500) with Claw Reacher (1000) 2/6 , 0.333333333333
+Attack Witty Phantom (1400) with Claw Reacher (1000) 1/6 , 0.166666666667
+Attack Curse of Dragon (2000) with Doma the Angel of Silence (1600) 1/6 , 0.166666666667
+Attack Neo the Magic Swordsman (1700) with Doma the Angel of Silence (1600) 0/6 , 0.0
+Attack Summoned Skull (2500) with Doma the Angel of Silence (1600) 1/6 , 0.166666666667
+Attack Witty Phantom (1400) with Doma the Angel of Silence (1600) 0/6 , 0.0
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300) 0/6 , 0.0
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300) 1/6 , 0.166666666667
+Attack Summoned Skull (2500) with Giant Soldier of Stone (1300) 0/6 , 0.0
+Attack Witty Phantom (1400) with Giant Soldier of Stone (1300) 0/6 , 0.0
+Attack Curse of Dragon (2000) with Dark Magician (2500) 1/6 , 0.166666666667
+Attack Neo the Magic Swordsman (1700) with Dark Magician (2500) 0/6 , 0.0
+Attack Summoned Skull (2500) with Dark Magician (2500) 2/5 , 0.4
+Attack Witty Phantom (1400) with Dark Magician (2500) 0/5 , 0.0
+Attacking Summoned Skull with Dark Magician
+Summoned Skull is now destroyed
+Dark Magician is now destroyed
+10 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Claw Reacher (1000)
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
+Attack Witty Phantom (1400) with Claw Reacher (1000)
+Attack Curse of Dragon (2000) with Doma the Angel of Silence (1600)
+Attack Neo the Magic Swordsman (1700) with Doma the Angel of Silence (1600)
+Attack Witty Phantom (1400) with Doma the Angel of Silence (1600)
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300)
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300)
+Attack Witty Phantom (1400) with Giant Soldier of Stone (1300)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 1/22 , 0.0454545454545
+Attack Curse of Dragon (2000) with Claw Reacher (1000) 1/22 , 0.0454545454545
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 1/22 , 0.0454545454545
+Attack Witty Phantom (1400) with Claw Reacher (1000) 2/22 , 0.0909090909091
+Attack Curse of Dragon (2000) with Doma the Angel of Silence (1600) 8/22 , 0.363636363636
+Attack Neo the Magic Swordsman (1700) with Doma the Angel of Silence (1600) 11/21 , 0.52380952381
+Attack Witty Phantom (1400) with Doma the Angel of Silence (1600) 1/15 , 0.0666666666667
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300) 7/15 , 0.466666666667
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300) 7/16 , 0.4375
+Attack Witty Phantom (1400) with Giant Soldier of Stone (1300) 1/21 , 0.047619047619
+Attacking Neo the Magic Swordsman with Doma the Angel of Silence
+Doma the Angel of Silence is now destroyed
+Yugi's life points are now 2300
+7 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Claw Reacher (1000)
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
+Attack Witty Phantom (1400) with Claw Reacher (1000)
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300)
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300)
+Attack Witty Phantom (1400) with Giant Soldier of Stone (1300)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 4/45 , 0.0888888888889
+Attack Curse of Dragon (2000) with Claw Reacher (1000) 4/45 , 0.0888888888889
+Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 8/45 , 0.177777777778
+Attack Witty Phantom (1400) with Claw Reacher (1000) 0/41 , 0.0
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300) 0/43 , 0.0
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300) 0/41 , 0.0
+Attack Witty Phantom (1400) with Giant Soldier of Stone (1300) 4/41 , 0.0975609756098
+Attacking Neo the Magic Swordsman with Claw Reacher
+Claw Reacher is now destroyed
+Yugi's life points are now 1600
+4 valid moves
+Advance Turn
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300)
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300)
+Attack Witty Phantom (1400) with Giant Soldier of Stone (1300)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 0/30 , 0.0
+Attack Curse of Dragon (2000) with Giant Soldier of Stone (1300) 5/33 , 0.151515151515
+Attack Neo the Magic Swordsman (1700) with Giant Soldier of Stone (1300) 0/29 , 0.0
+Attack Witty Phantom (1400) with Giant Soldier of Stone (1300) 2/29 , 0.0689655172414
+Attacking Curse of Dragon with Giant Soldier of Stone
+Giant Soldier of Stone is now destroyed
+Yugi's life points are now 900
+1 valid moves
+Advance Turn
+It is now Opponent's Turn
+Opponent drew Winged Dragon, Guardian of the Fortress #1
+Summoning Ansatsu
+Battle Phase Turn Number 12
+5 valid moves
+Advance Turn
+Attack Yugi directly with Curse of Dragon (2000)
+Attack Yugi directly with Neo the Magic Swordsman (1700)
+Attack Yugi directly with Ansatsu (1700)
+Attack Yugi directly with Witty Phantom (1400)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 22/23 , 0.95652173913
+Attack Yugi directly with Curse of Dragon (2000) 22/23 , 0.95652173913
+Attack Yugi directly with Neo the Magic Swordsman (1700) 21/22 , 0.954545454545
+Attack Yugi directly with Ansatsu (1700) 21/22 , 0.954545454545
+Attack Yugi directly with Witty Phantom (1400) 25/26 , 0.961538461538
+Attacking Yugi directly with Witty Phantom
+GAME OVER!
+Yugi's life points are now 0
+Yugi drew Doma the Angel of Silence
+Opponent drew Witty Phantom
+Yugi drew Magical Ghost
+Opponent drew Neo the Magic Swordsman
+Yugi drew Giant Soldier of Stone
+Opponent drew Baron of the Fiend Sword
+Yugi drew Beaver Warrior
+Opponent drew Magical Ghost
+Yugi drew Ancient Elf
+Opponent drew Ancient Elf
+
+BEGIN GAME!!!
+
+Opponent goes first
+Opponent drew Mammoth Graveyard
+Summoning Neo the Magic Swordsman
+It is now Yugi's Turn
+Yugi drew Winged Dragon, Guardian of the Fortress #1
+Summoning Ancient Elf
+Battle Phase Turn Number 2
+2 valid moves
+Advance Turn
+Attack Neo the Magic Swordsman (1700) with Ancient Elf (1450)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 5/50 , 0.1
+Attack Neo the Magic Swordsman (1700) with Ancient Elf (1450) 1/50 , 0.02
+It is now Opponent's Turn
+Opponent drew Giant Soldier of Stone
+Summoning Ancient Elf
+Battle Phase Turn Number 3
+3 valid moves
+Advance Turn
+Attack Ancient Elf (1450) with Neo the Magic Swordsman (1700)
+Attack Ancient Elf (1450) with Ancient Elf (1450)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 60/94 , 0.63829787234
+Attack Ancient Elf (1450) with Neo the Magic Swordsman (1700) 69/91 , 0.758241758242
+Attack Ancient Elf (1450) with Ancient Elf (1450) 49/91 , 0.538461538462
+Attacking Ancient Elf with Neo the Magic Swordsman
+Ancient Elf is now destroyed
+Yugi's life points are now 3750
+2 valid moves
+Advance Turn
+Attack Yugi directly with Ancient Elf (1450)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 40/66 , 0.606060606061
+Attack Yugi directly with Ancient Elf (1450) 43/65 , 0.661538461538
+Attacking Yugi directly with Ancient Elf
+Yugi's life points are now 2300
+1 valid moves
+Advance Turn
+It is now Yugi's Turn
+Yugi drew Summoned Skull
+Summoning Beaver Warrior
+Battle Phase Turn Number 4
+3 valid moves
+Advance Turn
+Attack Neo the Magic Swordsman (1700) with Beaver Warrior (1200)
+Attack Ancient Elf (1450) with Beaver Warrior (1200)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 10/58 , 0.172413793103
+Attack Neo the Magic Swordsman (1700) with Beaver Warrior (1200) 6/56 , 0.107142857143
+Attack Ancient Elf (1450) with Beaver Warrior (1200) 0/58 , 0.0
+It is now Opponent's Turn
+Opponent drew Great White
+Summoning Magical Ghost
+Battle Phase Turn Number 5
+4 valid moves
+Advance Turn
+Attack Beaver Warrior (1200) with Neo the Magic Swordsman (1700)
+Attack Beaver Warrior (1200) with Ancient Elf (1450)
+Attack Beaver Warrior (1200) with Magical Ghost (1300)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 56/70 , 0.8
+Attack Beaver Warrior (1200) with Neo the Magic Swordsman (1700) 60/70 , 0.857142857143
+Attack Beaver Warrior (1200) with Ancient Elf (1450) 60/73 , 0.821917808219
+Attack Beaver Warrior (1200) with Magical Ghost (1300) 68/70 , 0.971428571429
+Attacking Beaver Warrior with Magical Ghost
+Beaver Warrior is now destroyed
+Yugi's life points are now 2200
+3 valid moves
+Advance Turn
+Attack Yugi directly with Neo the Magic Swordsman (1700)
+Attack Yugi directly with Ancient Elf (1450)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 76/81 , 0.938271604938
+Attack Yugi directly with Neo the Magic Swordsman (1700) 62/79 , 0.784810126582
+Attack Yugi directly with Ancient Elf (1450) 71/79 , 0.898734177215
+It is now Yugi's Turn
+Yugi drew Dragon Zombie
+Summoning Dragon Zombie
+Battle Phase Turn Number 6
+4 valid moves
+Advance Turn
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600)
+Attack Ancient Elf (1450) with Dragon Zombie (1600)
+Attack Magical Ghost (1300) with Dragon Zombie (1600)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 11/50 , 0.22
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600) 8/53 , 0.150943396226
+Attack Ancient Elf (1450) with Dragon Zombie (1600) 9/53 , 0.169811320755
+Attack Magical Ghost (1300) with Dragon Zombie (1600) 13/49 , 0.265306122449
+Attacking Magical Ghost with Dragon Zombie
+Magical Ghost is now destroyed
+Opponent's life points are now 3700
+1 valid moves
+Advance Turn
+It is now Opponent's Turn
+Opponent drew Doma the Angel of Silence
+Summoning Giant Soldier of Stone
+Battle Phase Turn Number 7
+4 valid moves
+Advance Turn
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700)
+Attack Dragon Zombie (1600) with Ancient Elf (1450)
+Attack Dragon Zombie (1600) with Giant Soldier of Stone (1300)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 48/67 , 0.716417910448
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700) 46/67 , 0.686567164179
+Attack Dragon Zombie (1600) with Ancient Elf (1450) 54/67 , 0.805970149254
+Attack Dragon Zombie (1600) with Giant Soldier of Stone (1300) 59/67 , 0.880597014925
+Attacking Dragon Zombie with Giant Soldier of Stone
+Giant Soldier of Stone is now destroyed
+Opponent's life points are now 3400
+3 valid moves
+Advance Turn
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700)
+Attack Dragon Zombie (1600) with Ancient Elf (1450)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 56/94 , 0.595744680851
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700) 47/91 , 0.516483516484
+Attack Dragon Zombie (1600) with Ancient Elf (1450) 71/91 , 0.78021978022
+Attacking Dragon Zombie with Ancient Elf
+Ancient Elf is now destroyed
+Opponent's life points are now 3250
+2 valid moves
+Advance Turn
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 48/67 , 0.716417910448
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700) 42/65 , 0.646153846154
+It is now Yugi's Turn
+Yugi drew Mammoth Graveyard
+Summoning Summoned Skull
+Battle Phase Turn Number 8
+3 valid moves
+Advance Turn
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600)
+Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 63/65 , 0.969230769231
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600) 57/63 , 0.904761904762
+Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500) 58/63 , 0.920634920635
+It is now Opponent's Turn
+Opponent drew Curse of Dragon
+Summoning Baron of the Fiend Sword
+Battle Phase Turn Number 9
+5 valid moves
+Advance Turn
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700)
+Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700)
+Attack Dragon Zombie (1600) with Baron of the Fiend Sword (1550)
+Attack Summoned Skull (2500) with Baron of the Fiend Sword (1550)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 2/53 , 0.0377358490566
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700) 0/56 , 0.0
+Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700) 1/56 , 0.0178571428571
+Attack Dragon Zombie (1600) with Baron of the Fiend Sword (1550) 0/52 , 0.0
+Attack Summoned Skull (2500) with Baron of the Fiend Sword (1550) 0/52 , 0.0
+It is now Yugi's Turn
+Yugi drew Mystical Elf
+Summoning Magical Ghost
+Battle Phase Turn Number 10
+7 valid moves
+Advance Turn
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600)
+Attack Baron of the Fiend Sword (1550) with Dragon Zombie (1600)
+Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500)
+Attack Baron of the Fiend Sword (1550) with Summoned Skull (2500)
+Attack Neo the Magic Swordsman (1700) with Magical Ghost (1300)
+Attack Baron of the Fiend Sword (1550) with Magical Ghost (1300)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 39/46 , 0.847826086957
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600) 33/43 , 0.767441860465
+Attack Baron of the Fiend Sword (1550) with Dragon Zombie (1600) 44/46 , 0.95652173913
+Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500) 39/46 , 0.847826086957
+Attack Baron of the Fiend Sword (1550) with Summoned Skull (2500) 45/46 , 0.978260869565
+Attack Neo the Magic Swordsman (1700) with Magical Ghost (1300) 40/43 , 0.93023255814
+Attack Baron of the Fiend Sword (1550) with Magical Ghost (1300) 43/46 , 0.934782608696
+Attacking Baron of the Fiend Sword with Summoned Skull
+Baron of the Fiend Sword is now destroyed
+Opponent's life points are now 2300
+3 valid moves
+Advance Turn
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600)
+Attack Neo the Magic Swordsman (1700) with Magical Ghost (1300)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 78/82 , 0.951219512195
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600) 66/79 , 0.835443037975
+Attack Neo the Magic Swordsman (1700) with Magical Ghost (1300) 72/79 , 0.911392405063
+It is now Opponent's Turn
+Opponent drew Man-Eating Treasure Chest
+Summoning Mammoth Graveyard
+Battle Phase Turn Number 11
+7 valid moves
+Advance Turn
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700)
+Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700)
+Attack Magical Ghost (1300) with Neo the Magic Swordsman (1700)
+Attack Dragon Zombie (1600) with Mammoth Graveyard (1200)
+Attack Summoned Skull (2500) with Mammoth Graveyard (1200)
+Attack Magical Ghost (1300) with Mammoth Graveyard (1200)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 0/41 , 0.0
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700) 4/41 , 0.0975609756098
+Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700) 0/43 , 0.0
+Attack Magical Ghost (1300) with Neo the Magic Swordsman (1700) 0/40 , 0.0
+Attack Dragon Zombie (1600) with Mammoth Graveyard (1200) 6/40 , 0.15
+Attack Summoned Skull (2500) with Mammoth Graveyard (1200) 8/41 , 0.19512195122
+Attack Magical Ghost (1300) with Mammoth Graveyard (1200) 1/43 , 0.0232558139535
+Attacking Summoned Skull with Mammoth Graveyard
+Mammoth Graveyard is now destroyed
+Opponent's life points are now 1000
+4 valid moves
+Advance Turn
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700)
+Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700)
+Attack Magical Ghost (1300) with Neo the Magic Swordsman (1700)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 2/25 , 0.08
+Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700) 0/25 , 0.0
+Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700) 1/25 , 0.04
+Attack Magical Ghost (1300) with Neo the Magic Swordsman (1700) 0/25 , 0.0
+It is now Yugi's Turn
+Yugi drew Silver Fang
+Summoning Winged Dragon, Guardian of the Fortress #1
+Battle Phase Turn Number 12
+5 valid moves
+Advance Turn
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600)
+Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500)
+Attack Neo the Magic Swordsman (1700) with Magical Ghost (1300)
+Attack Neo the Magic Swordsman (1700) with Winged Dragon, Guardian of the Fortress #1 (1400)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 65/66 , 0.984848484848
+Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600) 60/69 , 0.869565217391
+Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500) 68/69 , 0.985507246377
+Attack Neo the Magic Swordsman (1700) with Magical Ghost (1300) 64/65 , 0.984615384615
+Attack Neo the Magic Swordsman (1700) with Winged Dragon, Guardian of the Fortress #1 (1400) 64/65 , 0.984615384615
+Attacking Neo the Magic Swordsman with Summoned Skull
+Neo the Magic Swordsman is now destroyed
+Opponent's life points are now 200
+4 valid moves
+Advance Turn
+Attack Opponent directly with Dragon Zombie (1600)
+Attack Opponent directly with Magical Ghost (1300)
+Attack Opponent directly with Winged Dragon, Guardian of the Fortress #1 (1400)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 36/37 , 0.972972972973
+Attack Opponent directly with Dragon Zombie (1600) 36/37 , 0.972972972973
+Attack Opponent directly with Magical Ghost (1300) 36/37 , 0.972972972973
+Attack Opponent directly with Winged Dragon, Guardian of the Fortress #1 (1400) 36/37 , 0.972972972973
+It is now Opponent's Turn
+Opponent drew Celtic Guardian
+Summoning Curse of Dragon
+Battle Phase Turn Number 13
+5 valid moves
+Advance Turn
+Attack Dragon Zombie (1600) with Curse of Dragon (2000)
+Attack Summoned Skull (2500) with Curse of Dragon (2000)
+Attack Magical Ghost (1300) with Curse of Dragon (2000)
+Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Curse of Dragon (2000)
+Beginning ISMCTS Simulation
+Ending ISMCTS Simulation
+Advance Turn 3/23 , 0.130434782609
+Attack Dragon Zombie (1600) with Curse of Dragon (2000) 4/23 , 0.173913043478
+Attack Summoned Skull (2500) with Curse of Dragon (2000) 6/26 , 0.230769230769
+Attack Magical Ghost (1300) with Curse of Dragon (2000) 2/22 , 0.0909090909091
+Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Curse of Dragon (2000) 0/22 , 0.0
+Attacking Summoned Skull with Curse of Dragon
+Curse of Dragon is now destroyed
+GAME OVER!
+Opponent's life points are now 0

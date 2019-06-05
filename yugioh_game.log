@@ -1,1092 +1,147 @@
-INFO:root:Yugi drew Mystic Clown
-INFO:root:Opponent drew Ancient Elf
-INFO:root:Yugi drew Claw Reacher
-INFO:root:Opponent drew Claw Reacher
-INFO:root:Yugi drew Witty Phantom
-INFO:root:Opponent drew Winged Dragon, Guardian of the Fortress #1
-INFO:root:Yugi drew Great White
-INFO:root:Opponent drew Summoned Skull
-INFO:root:Yugi drew Gaia the Fierce Knight
-INFO:root:Opponent drew Mammoth Graveyard
-INFO:root:
-BEGIN GAME!!!
-
-INFO:root:Yugi goes first
 INFO:root:Yugi drew Magical Ghost
-INFO:root:Summoning Great White
-INFO:root:It is now Opponent's Turn
 INFO:root:Opponent drew Mystic Clown
-INFO:root:Summoning Summoned Skull
-INFO:root:Battle Phase Turn Number 2
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Great White (1600) with Summoned Skull (2500)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 42/50 , 0.84
-INFO:root:Attack Great White (1600) with Summoned Skull (2500) 44/50 , 0.88
-INFO:root:Attacking Great White with Summoned Skull
-INFO:root:Great White is now destroyed
-INFO:root:Yugi's life points are now 3100
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Winged Dragon, Guardian of the Fortress #1
-INFO:root:Summoning Claw Reacher
-INFO:root:Battle Phase Turn Number 3
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Summoned Skull (2500) with Claw Reacher (1000)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 0/67 , 0.0
-INFO:root:Attack Summoned Skull (2500) with Claw Reacher (1000) 0/65 , 0.0
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Silver Fang
-INFO:root:Summoning Ancient Elf
-INFO:root:Battle Phase Turn Number 4
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Claw Reacher (1000) with Summoned Skull (2500)
-INFO:root:Attack Claw Reacher (1000) with Ancient Elf (1450)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 66/71 , 0.929577464789
-INFO:root:Attack Claw Reacher (1000) with Summoned Skull (2500) 66/70 , 0.942857142857
-INFO:root:Attack Claw Reacher (1000) with Ancient Elf (1450) 70/71 , 0.985915492958
-INFO:root:Attacking Claw Reacher with Ancient Elf
-INFO:root:Claw Reacher is now destroyed
-INFO:root:Yugi's life points are now 2650
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Summoned Skull (2500)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 95/97 , 0.979381443299
-INFO:root:Attack Yugi directly with Summoned Skull (2500) 96/97 , 0.989690721649
-INFO:root:Attacking Yugi directly with Summoned Skull
-INFO:root:Yugi's life points are now 150
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Dragon Zombie
-INFO:root:Summoning Dragon Zombie
-INFO:root:Battle Phase Turn Number 5
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Summoned Skull (2500) with Dragon Zombie (1600)
-INFO:root:Attack Ancient Elf (1450) with Dragon Zombie (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 0/34 , 0.0
-INFO:root:Attack Summoned Skull (2500) with Dragon Zombie (1600) 0/33 , 0.0
-INFO:root:Attack Ancient Elf (1450) with Dragon Zombie (1600) 0/33 , 0.0
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Sorcerer of the Doomed
-INFO:root:Summoning Mystic Clown
-INFO:root:Battle Phase Turn Number 6
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Dragon Zombie (1600) with Summoned Skull (2500)
-INFO:root:Attack Dragon Zombie (1600) with Ancient Elf (1450)
-INFO:root:Attack Dragon Zombie (1600) with Mystic Clown (1500)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 45/46 , 0.978260869565
-INFO:root:Attack Dragon Zombie (1600) with Summoned Skull (2500) 45/46 , 0.978260869565
-INFO:root:Attack Dragon Zombie (1600) with Ancient Elf (1450) 45/46 , 0.978260869565
-INFO:root:Attack Dragon Zombie (1600) with Mystic Clown (1500) 45/46 , 0.978260869565
-INFO:root:It is now Yugi's Turn
+INFO:root:Yugi drew Curse of Dragon
+INFO:root:Opponent drew Dark Magician
 INFO:root:Yugi drew Neo the Magic Swordsman
-INFO:root:Summoning Magical Ghost
-INFO:root:Battle Phase Turn Number 7
-INFO:root:7 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Summoned Skull (2500) with Dragon Zombie (1600)
-INFO:root:Attack Ancient Elf (1450) with Dragon Zombie (1600)
-INFO:root:Attack Mystic Clown (1500) with Dragon Zombie (1600)
-INFO:root:Attack Summoned Skull (2500) with Magical Ghost (1300)
-INFO:root:Attack Ancient Elf (1450) with Magical Ghost (1300)
-INFO:root:Attack Mystic Clown (1500) with Magical Ghost (1300)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 0/18 , 0.0
-INFO:root:Attack Summoned Skull (2500) with Dragon Zombie (1600) 0/22 , 0.0
-INFO:root:Attack Ancient Elf (1450) with Dragon Zombie (1600) 0/18 , 0.0
-INFO:root:Attack Mystic Clown (1500) with Dragon Zombie (1600) 0/18 , 0.0
-INFO:root:Attack Summoned Skull (2500) with Magical Ghost (1300) 0/17 , 0.0
-INFO:root:Attack Ancient Elf (1450) with Magical Ghost (1300) 0/22 , 0.0
-INFO:root:Attack Mystic Clown (1500) with Magical Ghost (1300) 0/19 , 0.0
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Giant Soldier of Stone
-INFO:root:Summoning Giant Soldier of Stone
-INFO:root:Battle Phase Turn Number 8
-INFO:root:9 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Dragon Zombie (1600) with Summoned Skull (2500)
-INFO:root:Attack Magical Ghost (1300) with Summoned Skull (2500)
-INFO:root:Attack Dragon Zombie (1600) with Ancient Elf (1450)
-INFO:root:Attack Magical Ghost (1300) with Ancient Elf (1450)
-INFO:root:Attack Dragon Zombie (1600) with Mystic Clown (1500)
-INFO:root:Attack Magical Ghost (1300) with Mystic Clown (1500)
-INFO:root:Attack Dragon Zombie (1600) with Giant Soldier of Stone (1300)
-INFO:root:Attack Magical Ghost (1300) with Giant Soldier of Stone (1300)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 11/12 , 0.916666666667
-INFO:root:Attack Dragon Zombie (1600) with Summoned Skull (2500) 14/15 , 0.933333333333
-INFO:root:Attack Magical Ghost (1300) with Summoned Skull (2500) 11/12 , 0.916666666667
-INFO:root:Attack Dragon Zombie (1600) with Ancient Elf (1450) 11/12 , 0.916666666667
-INFO:root:Attack Magical Ghost (1300) with Ancient Elf (1450) 11/12 , 0.916666666667
-INFO:root:Attack Dragon Zombie (1600) with Mystic Clown (1500) 12/13 , 0.923076923077
-INFO:root:Attack Magical Ghost (1300) with Mystic Clown (1500) 11/12 , 0.916666666667
-INFO:root:Attack Dragon Zombie (1600) with Giant Soldier of Stone (1300) 11/12 , 0.916666666667
-INFO:root:Attack Magical Ghost (1300) with Giant Soldier of Stone (1300) 11/12 , 0.916666666667
-INFO:root:Attacking Dragon Zombie with Summoned Skull
-INFO:root:Dragon Zombie is now destroyed
-INFO:root:GAME OVER!
-INFO:root:Yugi's life points are now 0
-INFO:root:Yugi drew Baron of the Fiend Sword
-INFO:root:Opponent drew Dragon Zombie
-INFO:root:Yugi drew Ancient Elf
-INFO:root:Opponent drew Winged Dragon, Guardian of the Fortress #1
-INFO:root:Yugi drew Sorcerer of the Doomed
-INFO:root:Opponent drew Curse of Dragon
-INFO:root:Yugi drew Magical Ghost
-INFO:root:Opponent drew Witty Phantom
-INFO:root:Yugi drew Celtic Guardian
-INFO:root:Opponent drew Man-Eating Treasure Chest
-INFO:root:
-BEGIN GAME!!!
-
-INFO:root:Opponent goes first
-INFO:root:Opponent drew Great White
-INFO:root:Summoning Great White
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Dark Magician
-INFO:root:Summoning Ancient Elf
-INFO:root:Battle Phase Turn Number 2
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Great White (1600) with Ancient Elf (1450)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 19/50 , 0.38
-INFO:root:Attack Great White (1600) with Ancient Elf (1450) 16/50 , 0.32
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Neo the Magic Swordsman
-INFO:root:Summoning Witty Phantom
-INFO:root:Battle Phase Turn Number 3
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Ancient Elf (1450) with Great White (1600)
-INFO:root:Attack Ancient Elf (1450) with Witty Phantom (1400)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 48/71 , 0.676056338028
-INFO:root:Attack Ancient Elf (1450) with Great White (1600) 43/71 , 0.605633802817
-INFO:root:Attack Ancient Elf (1450) with Witty Phantom (1400) 40/70 , 0.571428571429
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Beaver Warrior
-INFO:root:Summoning Magical Ghost
-INFO:root:Battle Phase Turn Number 4
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Great White (1600) with Ancient Elf (1450)
-INFO:root:Attack Witty Phantom (1400) with Ancient Elf (1450)
-INFO:root:Attack Great White (1600) with Magical Ghost (1300)
-INFO:root:Attack Witty Phantom (1400) with Magical Ghost (1300)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 17/56 , 0.303571428571
-INFO:root:Attack Great White (1600) with Ancient Elf (1450) 6/56 , 0.107142857143
-INFO:root:Attack Witty Phantom (1400) with Ancient Elf (1450) 16/57 , 0.280701754386
-INFO:root:Attack Great White (1600) with Magical Ghost (1300) 15/58 , 0.258620689655
-INFO:root:Attack Witty Phantom (1400) with Magical Ghost (1300) 6/56 , 0.107142857143
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Mammoth Graveyard
-INFO:root:Summoning Curse of Dragon
-INFO:root:Battle Phase Turn Number 5
-INFO:root:7 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Ancient Elf (1450) with Great White (1600)
-INFO:root:Attack Magical Ghost (1300) with Great White (1600)
-INFO:root:Attack Ancient Elf (1450) with Witty Phantom (1400)
-INFO:root:Attack Magical Ghost (1300) with Witty Phantom (1400)
-INFO:root:Attack Ancient Elf (1450) with Curse of Dragon (2000)
-INFO:root:Attack Magical Ghost (1300) with Curse of Dragon (2000)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 27/37 , 0.72972972973
-INFO:root:Attack Ancient Elf (1450) with Great White (1600) 42/43 , 0.976744186047
-INFO:root:Attack Magical Ghost (1300) with Great White (1600) 23/37 , 0.621621621622
-INFO:root:Attack Ancient Elf (1450) with Witty Phantom (1400) 32/37 , 0.864864864865
-INFO:root:Attack Magical Ghost (1300) with Witty Phantom (1400) 32/37 , 0.864864864865
-INFO:root:Attack Ancient Elf (1450) with Curse of Dragon (2000) 23/37 , 0.621621621622
-INFO:root:Attack Magical Ghost (1300) with Curse of Dragon (2000) 20/36 , 0.555555555556
-INFO:root:Attacking Ancient Elf with Great White
-INFO:root:Ancient Elf is now destroyed
-INFO:root:Yugi's life points are now 3850
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Magical Ghost (1300) with Witty Phantom (1400)
-INFO:root:Attack Magical Ghost (1300) with Curse of Dragon (2000)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 58/70 , 0.828571428571
-INFO:root:Attack Magical Ghost (1300) with Witty Phantom (1400) 56/71 , 0.788732394366
-INFO:root:Attack Magical Ghost (1300) with Curse of Dragon (2000) 50/71 , 0.704225352113
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Mammoth Graveyard
-INFO:root:Summoning Beaver Warrior
-INFO:root:Battle Phase Turn Number 6
-INFO:root:7 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Great White (1600) with Beaver Warrior (1200)
-INFO:root:Attack Witty Phantom (1400) with Beaver Warrior (1200)
-INFO:root:Attack Curse of Dragon (2000) with Beaver Warrior (1200)
-INFO:root:Attack Great White (1600) with Magical Ghost (1300)
-INFO:root:Attack Witty Phantom (1400) with Magical Ghost (1300)
-INFO:root:Attack Curse of Dragon (2000) with Magical Ghost (1300)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 1/45 , 0.0222222222222
-INFO:root:Attack Great White (1600) with Beaver Warrior (1200) 0/45 , 0.0
-INFO:root:Attack Witty Phantom (1400) with Beaver Warrior (1200) 1/43 , 0.0232558139535
-INFO:root:Attack Curse of Dragon (2000) with Beaver Warrior (1200) 0/45 , 0.0
-INFO:root:Attack Great White (1600) with Magical Ghost (1300) 5/41 , 0.121951219512
-INFO:root:Attack Witty Phantom (1400) with Magical Ghost (1300) 8/41 , 0.19512195122
-INFO:root:Attack Curse of Dragon (2000) with Magical Ghost (1300) 4/41 , 0.0975609756098
-INFO:root:Attacking Witty Phantom with Magical Ghost
-INFO:root:Magical Ghost is now destroyed
-INFO:root:Yugi's life points are now 3750
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Great White (1600) with Beaver Warrior (1200)
-INFO:root:Attack Witty Phantom (1400) with Beaver Warrior (1200)
-INFO:root:Attack Curse of Dragon (2000) with Beaver Warrior (1200)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 3/25 , 0.12
-INFO:root:Attack Great White (1600) with Beaver Warrior (1200) 4/25 , 0.16
-INFO:root:Attack Witty Phantom (1400) with Beaver Warrior (1200) 2/25 , 0.08
-INFO:root:Attack Curse of Dragon (2000) with Beaver Warrior (1200) 1/25 , 0.04
-INFO:root:Attacking Great White with Beaver Warrior
-INFO:root:Beaver Warrior is now destroyed
-INFO:root:Yugi's life points are now 3350
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Baron of the Fiend Sword
-INFO:root:Summoning Man-Eating Treasure Chest
-INFO:root:Battle Phase Turn Number 7
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Great White (1600)
-INFO:root:Attack Yugi directly with Witty Phantom (1400)
-INFO:root:Attack Yugi directly with Curse of Dragon (2000)
-INFO:root:Attack Yugi directly with Man-Eating Treasure Chest (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 69/71 , 0.971830985915
-INFO:root:Attack Yugi directly with Great White (1600) 67/69 , 0.971014492754
-INFO:root:Attack Yugi directly with Witty Phantom (1400) 53/66 , 0.80303030303
-INFO:root:Attack Yugi directly with Curse of Dragon (2000) 68/69 , 0.985507246377
-INFO:root:Attack Yugi directly with Man-Eating Treasure Chest (1600) 57/69 , 0.826086956522
-INFO:root:Attacking Yugi directly with Curse of Dragon
-INFO:root:Yugi's life points are now 1350
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Great White (1600)
-INFO:root:Attack Yugi directly with Witty Phantom (1400)
-INFO:root:Attack Yugi directly with Man-Eating Treasure Chest (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 36/37 , 0.972972972973
-INFO:root:Attack Yugi directly with Great White (1600) 36/37 , 0.972972972973
-INFO:root:Attack Yugi directly with Witty Phantom (1400) 36/37 , 0.972972972973
-INFO:root:Attack Yugi directly with Man-Eating Treasure Chest (1600) 36/37 , 0.972972972973
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Dragon Zombie
-INFO:root:Summoning Dragon Zombie
-INFO:root:Battle Phase Turn Number 8
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Great White (1600) with Dragon Zombie (1600)
-INFO:root:Attack Witty Phantom (1400) with Dragon Zombie (1600)
-INFO:root:Attack Curse of Dragon (2000) with Dragon Zombie (1600)
-INFO:root:Attack Man-Eating Treasure Chest (1600) with Dragon Zombie (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 2/23 , 0.0869565217391
-INFO:root:Attack Great White (1600) with Dragon Zombie (1600) 5/26 , 0.192307692308
-INFO:root:Attack Witty Phantom (1400) with Dragon Zombie (1600) 0/23 , 0.0
-INFO:root:Attack Curse of Dragon (2000) with Dragon Zombie (1600) 1/22 , 0.0454545454545
-INFO:root:Attack Man-Eating Treasure Chest (1600) with Dragon Zombie (1600) 1/22 , 0.0454545454545
-INFO:root:Attacking Great White with Dragon Zombie
-INFO:root:Great White is now destroyed
-INFO:root:Dragon Zombie is now destroyed
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Giant Soldier of Stone
-INFO:root:Summoning Dragon Zombie
-INFO:root:Battle Phase Turn Number 9
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Dragon Zombie (1600)
-INFO:root:Attack Yugi directly with Witty Phantom (1400)
-INFO:root:Attack Yugi directly with Curse of Dragon (2000)
-INFO:root:Attack Yugi directly with Man-Eating Treasure Chest (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 22/23 , 0.95652173913
-INFO:root:Attack Yugi directly with Dragon Zombie (1600) 22/23 , 0.95652173913
-INFO:root:Attack Yugi directly with Witty Phantom (1400) 21/22 , 0.954545454545
-INFO:root:Attack Yugi directly with Curse of Dragon (2000) 21/22 , 0.954545454545
-INFO:root:Attack Yugi directly with Man-Eating Treasure Chest (1600) 25/26 , 0.961538461538
-INFO:root:Attacking Yugi directly with Man-Eating Treasure Chest
-INFO:root:GAME OVER!
-INFO:root:Yugi's life points are now 0
-INFO:root:Yugi drew Mammoth Graveyard
-INFO:root:Opponent drew Celtic Guardian
-INFO:root:Yugi drew Witty Phantom
-INFO:root:Opponent drew Curse of Dragon
-INFO:root:Yugi drew Sorcerer of the Doomed
-INFO:root:Opponent drew Beaver Warrior
+INFO:root:Opponent drew Ansatsu
 INFO:root:Yugi drew Feral Imp
-INFO:root:Opponent drew Sorcerer of the Doomed
-INFO:root:Yugi drew Doma the Angel of Silence
-INFO:root:Opponent drew Mammoth Graveyard
+INFO:root:Opponent drew Celtic Guardian
+INFO:root:Yugi drew Claw Reacher
+INFO:root:Opponent drew Magical Ghost
 INFO:root:
 BEGIN GAME!!!
 
 INFO:root:Yugi goes first
-INFO:root:Yugi drew Neo the Magic Swordsman
-INFO:root:Summoning Witty Phantom
+INFO:root:Yugi drew Summoned Skull
+INFO:root:Summoning Neo the Magic Swordsman
 INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Baron of the Fiend Sword
-INFO:root:Summoning Beaver Warrior
+INFO:root:Opponent drew Doma the Angel of Silence
+INFO:root:Summoning Ansatsu
 INFO:root:Battle Phase Turn Number 2
 INFO:root:2 valid moves
 INFO:root:Advance Turn
-INFO:root:Attack Witty Phantom (1400) with Beaver Warrior (1200)
+INFO:root:Attack Neo the Magic Swordsman (1700) with Ansatsu (1700)
 INFO:root:Beginning ISMCTS Simulation
 INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 22/67 , 0.328358208955
-INFO:root:Attack Witty Phantom (1400) with Beaver Warrior (1200) 26/65 , 0.4
-INFO:root:Attacking Witty Phantom with Beaver Warrior
-INFO:root:Beaver Warrior is now destroyed
-INFO:root:Opponent's life points are now 3800
-INFO:root:1 valid moves
-INFO:root:Advance Turn
+INFO:root:Advance Turn 40/67 , 0.597014925373
+INFO:root:Attack Neo the Magic Swordsman (1700) with Ansatsu (1700) 27/65 , 0.415384615385
 INFO:root:It is now Yugi's Turn
 INFO:root:Yugi drew Mystical Elf
-INFO:root:Summoning Sorcerer of the Doomed
+INFO:root:Summoning Claw Reacher
 INFO:root:Battle Phase Turn Number 3
 INFO:root:3 valid moves
 INFO:root:Advance Turn
-INFO:root:Attack Opponent directly with Witty Phantom (1400)
-INFO:root:Attack Opponent directly with Sorcerer of the Doomed (1450)
+INFO:root:Attack Ansatsu (1700) with Neo the Magic Swordsman (1700)
+INFO:root:Attack Ansatsu (1700) with Claw Reacher (1000)
 INFO:root:Beginning ISMCTS Simulation
 INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 40/65 , 0.615384615385
-INFO:root:Attack Opponent directly with Witty Phantom (1400) 32/63 , 0.507936507937
-INFO:root:Attack Opponent directly with Sorcerer of the Doomed (1450) 37/63 , 0.587301587302
+INFO:root:Advance Turn 35/70 , 0.5
+INFO:root:Attack Ansatsu (1700) with Neo the Magic Swordsman (1700) 21/71 , 0.295774647887
+INFO:root:Attack Ansatsu (1700) with Claw Reacher (1000) 41/71 , 0.577464788732
+INFO:root:Attacking Ansatsu with Claw Reacher
+INFO:root:Claw Reacher is now destroyed
+INFO:root:Yugi's life points are now 3300
+INFO:root:2 valid moves
+INFO:root:Advance Turn
+INFO:root:Attack Ansatsu (1700) with Neo the Magic Swordsman (1700)
+INFO:root:Beginning ISMCTS Simulation
+INFO:root:Ending ISMCTS Simulation
+INFO:root:Advance Turn 49/97 , 0.505154639175
+INFO:root:Attack Ansatsu (1700) with Neo the Magic Swordsman (1700) 51/97 , 0.525773195876
+INFO:root:Attacking Ansatsu with Neo the Magic Swordsman
+INFO:root:Ansatsu is now destroyed
+INFO:root:Neo the Magic Swordsman is now destroyed
+INFO:root:1 valid moves
+INFO:root:Advance Turn
 INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Neo the Magic Swordsman
+INFO:root:Opponent drew Feral Imp
 INFO:root:Summoning Celtic Guardian
 INFO:root:Battle Phase Turn Number 4
-INFO:root:3 valid moves
+INFO:root:2 valid moves
 INFO:root:Advance Turn
-INFO:root:Attack Witty Phantom (1400) with Celtic Guardian (1400)
-INFO:root:Attack Sorcerer of the Doomed (1450) with Celtic Guardian (1400)
+INFO:root:Attack Yugi directly with Celtic Guardian (1400)
 INFO:root:Beginning ISMCTS Simulation
 INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 10/58 , 0.172413793103
-INFO:root:Attack Witty Phantom (1400) with Celtic Guardian (1400) 17/56 , 0.303571428571
-INFO:root:Attack Sorcerer of the Doomed (1450) with Celtic Guardian (1400) 16/58 , 0.275862068966
-INFO:root:Attacking Witty Phantom with Celtic Guardian
-INFO:root:Witty Phantom is now destroyed
+INFO:root:Advance Turn 30/50 , 0.6
+INFO:root:Attack Yugi directly with Celtic Guardian (1400) 30/50 , 0.6
+INFO:root:It is now Yugi's Turn
+INFO:root:Yugi drew Ancient Elf
+INFO:root:Summoning Curse of Dragon
+INFO:root:Battle Phase Turn Number 5
+INFO:root:2 valid moves
+INFO:root:Advance Turn
+INFO:root:Attack Celtic Guardian (1400) with Curse of Dragon (2000)
+INFO:root:Beginning ISMCTS Simulation
+INFO:root:Ending ISMCTS Simulation
+INFO:root:Advance Turn 46/66 , 0.69696969697
+INFO:root:Attack Celtic Guardian (1400) with Curse of Dragon (2000) 46/65 , 0.707692307692
+INFO:root:Attacking Celtic Guardian with Curse of Dragon
 INFO:root:Celtic Guardian is now destroyed
+INFO:root:Opponent's life points are now 3400
 INFO:root:1 valid moves
 INFO:root:Advance Turn
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Magical Ghost
+INFO:root:It is now Opponent's Turn
+INFO:root:Opponent drew Witty Phantom
 INFO:root:Summoning Feral Imp
-INFO:root:Battle Phase Turn Number 5
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Opponent directly with Feral Imp (1300)
-INFO:root:Attack Opponent directly with Sorcerer of the Doomed (1450)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 57/82 , 0.69512195122
-INFO:root:Attack Opponent directly with Feral Imp (1300) 50/79 , 0.632911392405
-INFO:root:Attack Opponent directly with Sorcerer of the Doomed (1450) 59/79 , 0.746835443038
-INFO:root:Attacking Opponent directly with Sorcerer of the Doomed
-INFO:root:Opponent's life points are now 2350
+INFO:root:Battle Phase Turn Number 6
 INFO:root:2 valid moves
 INFO:root:Advance Turn
-INFO:root:Attack Opponent directly with Feral Imp (1300)
+INFO:root:Attack Curse of Dragon (2000) with Feral Imp (1300)
 INFO:root:Beginning ISMCTS Simulation
 INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 33/67 , 0.492537313433
-INFO:root:Attack Opponent directly with Feral Imp (1300) 41/65 , 0.630769230769
-INFO:root:Attacking Opponent directly with Feral Imp
-INFO:root:Opponent's life points are now 1050
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Ancient Elf
-INFO:root:Summoning Baron of the Fiend Sword
-INFO:root:Battle Phase Turn Number 6
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Feral Imp (1300) with Baron of the Fiend Sword (1550)
-INFO:root:Attack Sorcerer of the Doomed (1450) with Baron of the Fiend Sword (1550)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 13/34 , 0.382352941176
-INFO:root:Attack Feral Imp (1300) with Baron of the Fiend Sword (1550) 12/33 , 0.363636363636
-INFO:root:Attack Sorcerer of the Doomed (1450) with Baron of the Fiend Sword (1550) 6/33 , 0.181818181818
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Summoned Skull
-INFO:root:Summoning Doma the Angel of Silence
-INFO:root:Battle Phase Turn Number 7
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Baron of the Fiend Sword (1550) with Feral Imp (1300)
-INFO:root:Attack Baron of the Fiend Sword (1550) with Sorcerer of the Doomed (1450)
-INFO:root:Attack Baron of the Fiend Sword (1550) with Doma the Angel of Silence (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 58/70 , 0.828571428571
-INFO:root:Attack Baron of the Fiend Sword (1550) with Feral Imp (1300) 69/70 , 0.985714285714
-INFO:root:Attack Baron of the Fiend Sword (1550) with Sorcerer of the Doomed (1450) 52/70 , 0.742857142857
-INFO:root:Attack Baron of the Fiend Sword (1550) with Doma the Angel of Silence (1600) 64/73 , 0.876712328767
-INFO:root:Attacking Baron of the Fiend Sword with Feral Imp
+INFO:root:Advance Turn 3/50 , 0.06
+INFO:root:Attack Curse of Dragon (2000) with Feral Imp (1300) 10/50 , 0.2
+INFO:root:Attacking Curse of Dragon with Feral Imp
 INFO:root:Feral Imp is now destroyed
-INFO:root:Yugi's life points are now 3750
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Baron of the Fiend Sword (1550) with Sorcerer of the Doomed (1450)
-INFO:root:Attack Baron of the Fiend Sword (1550) with Doma the Angel of Silence (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 80/81 , 0.987654320988
-INFO:root:Attack Baron of the Fiend Sword (1550) with Sorcerer of the Doomed (1450) 60/79 , 0.759493670886
-INFO:root:Attack Baron of the Fiend Sword (1550) with Doma the Angel of Silence (1600) 63/79 , 0.79746835443
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Summoned Skull
-INFO:root:Summoning Summoned Skull
-INFO:root:Battle Phase Turn Number 8
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Sorcerer of the Doomed (1450) with Baron of the Fiend Sword (1550)
-INFO:root:Attack Doma the Angel of Silence (1600) with Baron of the Fiend Sword (1550)
-INFO:root:Attack Sorcerer of the Doomed (1450) with Summoned Skull (2500)
-INFO:root:Attack Doma the Angel of Silence (1600) with Summoned Skull (2500)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 36/46 , 0.782608695652
-INFO:root:Attack Sorcerer of the Doomed (1450) with Baron of the Fiend Sword (1550) 42/46 , 0.913043478261
-INFO:root:Attack Doma the Angel of Silence (1600) with Baron of the Fiend Sword (1550) 40/47 , 0.851063829787
-INFO:root:Attack Sorcerer of the Doomed (1450) with Summoned Skull (2500) 33/46 , 0.717391304348
-INFO:root:Attack Doma the Angel of Silence (1600) with Summoned Skull (2500) 37/47 , 0.787234042553
-INFO:root:Attacking Sorcerer of the Doomed with Baron of the Fiend Sword
-INFO:root:Sorcerer of the Doomed is now destroyed
-INFO:root:Yugi's life points are now 3650
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Doma the Angel of Silence (1600) with Summoned Skull (2500)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 52/67 , 0.776119402985
-INFO:root:Attack Doma the Angel of Silence (1600) with Summoned Skull (2500) 52/65 , 0.8
-INFO:root:Attacking Doma the Angel of Silence with Summoned Skull
-INFO:root:Doma the Angel of Silence is now destroyed
-INFO:root:Yugi's life points are now 2750
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Dragon Zombie
-INFO:root:Summoning Neo the Magic Swordsman
-INFO:root:Battle Phase Turn Number 9
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Baron of the Fiend Sword (1550) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 3/43 , 0.0697674418605
-INFO:root:Attack Baron of the Fiend Sword (1550) with Neo the Magic Swordsman (1700) 9/42 , 0.214285714286
-INFO:root:Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700) 3/41 , 0.0731707317073
-INFO:root:Attacking Baron of the Fiend Sword with Neo the Magic Swordsman
-INFO:root:Baron of the Fiend Sword is now destroyed
-INFO:root:Opponent's life points are now 900
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Claw Reacher
-INFO:root:Summoning Claw Reacher
-INFO:root:Battle Phase Turn Number 10
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 52/71 , 0.732394366197
-INFO:root:Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 43/70 , 0.614285714286
-INFO:root:Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500) 49/71 , 0.69014084507
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Silver Fang
-INFO:root:Summoning Mystical Elf
-INFO:root:Battle Phase Turn Number 11
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Claw Reacher (1000) with Mystical Elf (800)
-INFO:root:Attack Summoned Skull (2500) with Mystical Elf (800)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 22/51 , 0.43137254902
-INFO:root:Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700) 4/52 , 0.0769230769231
-INFO:root:Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700) 16/49 , 0.326530612245
-INFO:root:Attack Claw Reacher (1000) with Mystical Elf (800) 3/49 , 0.0612244897959
-INFO:root:Attack Summoned Skull (2500) with Mystical Elf (800) 10/51 , 0.196078431373
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Giant Soldier of Stone
-INFO:root:Summoning Mammoth Graveyard
-INFO:root:Battle Phase Turn Number 12
-INFO:root:7 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
-INFO:root:Attack Mystical Elf (800) with Claw Reacher (1000)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500)
-INFO:root:Attack Mystical Elf (800) with Summoned Skull (2500)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Mammoth Graveyard (1200)
-INFO:root:Attack Mystical Elf (800) with Mammoth Graveyard (1200)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 22/43 , 0.511627906977
-INFO:root:Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 17/41 , 0.414634146341
-INFO:root:Attack Mystical Elf (800) with Claw Reacher (1000) 6/41 , 0.146341463415
-INFO:root:Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500) 14/40 , 0.35
-INFO:root:Attack Mystical Elf (800) with Summoned Skull (2500) 29/40 , 0.725
-INFO:root:Attack Neo the Magic Swordsman (1700) with Mammoth Graveyard (1200) 1/41 , 0.0243902439024
-INFO:root:Attack Mystical Elf (800) with Mammoth Graveyard (1200) 6/40 , 0.15
-INFO:root:Attacking Mystical Elf with Summoned Skull
-INFO:root:Mystical Elf is now destroyed
-INFO:root:Yugi's life points are now 1050
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Mammoth Graveyard (1200)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 16/70 , 0.228571428571
-INFO:root:Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 3/71 , 0.0422535211268
-INFO:root:Attack Neo the Magic Swordsman (1700) with Mammoth Graveyard (1200) 7/71 , 0.0985915492958
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Great White
-INFO:root:Summoning Summoned Skull
-INFO:root:Battle Phase Turn Number 13
-INFO:root:7 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Mammoth Graveyard (1200) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Claw Reacher (1000) with Summoned Skull (2500)
-INFO:root:Attack Summoned Skull (2500) with Summoned Skull (2500)
-INFO:root:Attack Mammoth Graveyard (1200) with Summoned Skull (2500)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 28/29 , 0.965517241379
-INFO:root:Attack Claw Reacher (1000) with Neo the Magic Swordsman (1700) 27/31 , 0.870967741935
-INFO:root:Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700) 27/29 , 0.931034482759
-INFO:root:Attack Mammoth Graveyard (1200) with Neo the Magic Swordsman (1700) 27/29 , 0.931034482759
-INFO:root:Attack Claw Reacher (1000) with Summoned Skull (2500) 26/28 , 0.928571428571
-INFO:root:Attack Summoned Skull (2500) with Summoned Skull (2500) 27/28 , 0.964285714286
-INFO:root:Attack Mammoth Graveyard (1200) with Summoned Skull (2500) 27/28 , 0.964285714286
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Winged Dragon, Guardian of the Fortress #1
-INFO:root:Summoning Neo the Magic Swordsman
-INFO:root:Battle Phase Turn Number 14
-INFO:root:9 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000)
-INFO:root:Attack Summoned Skull (2500) with Claw Reacher (1000)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500)
-INFO:root:Attack Summoned Skull (2500) with Summoned Skull (2500)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Mammoth Graveyard (1200)
-INFO:root:Attack Summoned Skull (2500) with Mammoth Graveyard (1200)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 0/22 , 0.0
-INFO:root:Attack Neo the Magic Swordsman (1700) with Claw Reacher (1000) 0/17 , 0.0
-INFO:root:Attack Summoned Skull (2500) with Claw Reacher (1000) 10/17 , 0.588235294118
-INFO:root:Attack Neo the Magic Swordsman (1700) with Summoned Skull (2500) 1/19 , 0.0526315789474
-INFO:root:Attack Summoned Skull (2500) with Summoned Skull (2500) 0/17 , 0.0
-INFO:root:Attack Neo the Magic Swordsman (1700) with Mammoth Graveyard (1200) 6/17 , 0.352941176471
-INFO:root:Attack Summoned Skull (2500) with Mammoth Graveyard (1200) 0/22 , 0.0
-INFO:root:Attack Neo the Magic Swordsman (1700) with Neo the Magic Swordsman (1700) 1/19 , 0.0526315789474
-INFO:root:Attack Summoned Skull (2500) with Neo the Magic Swordsman (1700) 5/17 , 0.294117647059
-INFO:root:Attacking Summoned Skull with Claw Reacher
-INFO:root:Claw Reacher is now destroyed
-INFO:root:GAME OVER!
-INFO:root:Opponent's life points are now 0
-INFO:root:Yugi drew Giant Soldier of Stone
-INFO:root:Opponent drew Ansatsu
-INFO:root:Yugi drew Great White
-INFO:root:Opponent drew Mystical Elf
-INFO:root:Yugi drew Mammoth Graveyard
-INFO:root:Opponent drew Doma the Angel of Silence
-INFO:root:Yugi drew Neo the Magic Swordsman
-INFO:root:Opponent drew Gaia the Fierce Knight
-INFO:root:Yugi drew Summoned Skull
-INFO:root:Opponent drew Winged Dragon, Guardian of the Fortress #1
-INFO:root:
-BEGIN GAME!!!
-
-INFO:root:Opponent goes first
-INFO:root:Opponent drew Giant Soldier of Stone
-INFO:root:Summoning Winged Dragon, Guardian of the Fortress #1
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Beaver Warrior
-INFO:root:Summoning Beaver Warrior
-INFO:root:Battle Phase Turn Number 2
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Beaver Warrior (1200)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 23/50 , 0.46
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Beaver Warrior (1200) 23/50 , 0.46
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Dragon Zombie
-INFO:root:Summoning Ansatsu
-INFO:root:Battle Phase Turn Number 3
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Beaver Warrior (1200) with Winged Dragon, Guardian of the Fortress #1 (1400)
-INFO:root:Attack Beaver Warrior (1200) with Ansatsu (1700)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 48/65 , 0.738461538462
-INFO:root:Attack Beaver Warrior (1200) with Winged Dragon, Guardian of the Fortress #1 (1400) 41/63 , 0.650793650794
-INFO:root:Attack Beaver Warrior (1200) with Ansatsu (1700) 42/63 , 0.666666666667
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Baron of the Fiend Sword
-INFO:root:Summoning Giant Soldier of Stone
-INFO:root:Battle Phase Turn Number 4
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Beaver Warrior (1200)
-INFO:root:Attack Ansatsu (1700) with Beaver Warrior (1200)
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Giant Soldier of Stone (1300)
-INFO:root:Attack Ansatsu (1700) with Giant Soldier of Stone (1300)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 12/58 , 0.206896551724
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Beaver Warrior (1200) 7/58 , 0.120689655172
-INFO:root:Attack Ansatsu (1700) with Beaver Warrior (1200) 10/58 , 0.172413793103
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Giant Soldier of Stone (1300) 25/61 , 0.409836065574
-INFO:root:Attack Ansatsu (1700) with Giant Soldier of Stone (1300) 7/61 , 0.114754098361
-INFO:root:Attacking Winged Dragon, Guardian of the Fortress #1 with Giant Soldier of Stone
-INFO:root:Giant Soldier of Stone is now destroyed
-INFO:root:Yugi's life points are now 3900
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Beaver Warrior (1200)
-INFO:root:Attack Ansatsu (1700) with Beaver Warrior (1200)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 7/42 , 0.166666666667
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Beaver Warrior (1200) 8/41 , 0.19512195122
-INFO:root:Attack Ansatsu (1700) with Beaver Warrior (1200) 3/43 , 0.0697674418605
-INFO:root:Attacking Winged Dragon, Guardian of the Fortress #1 with Beaver Warrior
-INFO:root:Beaver Warrior is now destroyed
-INFO:root:Yugi's life points are now 3700
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Sorcerer of the Doomed
-INFO:root:Summoning Doma the Angel of Silence
-INFO:root:Battle Phase Turn Number 5
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Winged Dragon, Guardian of the Fortress #1 (1400)
-INFO:root:Attack Yugi directly with Ansatsu (1700)
-INFO:root:Attack Yugi directly with Doma the Angel of Silence (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 74/76 , 0.973684210526
-INFO:root:Attack Yugi directly with Winged Dragon, Guardian of the Fortress #1 (1400) 70/76 , 0.921052631579
-INFO:root:Attack Yugi directly with Ansatsu (1700) 67/73 , 0.917808219178
-INFO:root:Attack Yugi directly with Doma the Angel of Silence (1600) 66/73 , 0.904109589041
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Silver Fang
-INFO:root:Summoning Great White
-INFO:root:Battle Phase Turn Number 6
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Great White (1600)
-INFO:root:Attack Ansatsu (1700) with Great White (1600)
-INFO:root:Attack Doma the Angel of Silence (1600) with Great White (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 5/30 , 0.166666666667
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Great White (1600) 5/30 , 0.166666666667
-INFO:root:Attack Ansatsu (1700) with Great White (1600) 3/29 , 0.103448275862
-INFO:root:Attack Doma the Angel of Silence (1600) with Great White (1600) 8/29 , 0.275862068966
-INFO:root:Attacking Doma the Angel of Silence with Great White
-INFO:root:Doma the Angel of Silence is now destroyed
-INFO:root:Great White is now destroyed
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Neo the Magic Swordsman
-INFO:root:Summoning Dragon Zombie
-INFO:root:Battle Phase Turn Number 7
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Winged Dragon, Guardian of the Fortress #1 (1400)
-INFO:root:Attack Yugi directly with Ansatsu (1700)
-INFO:root:Attack Yugi directly with Dragon Zombie (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 56/67 , 0.835820895522
-INFO:root:Attack Yugi directly with Winged Dragon, Guardian of the Fortress #1 (1400) 63/67 , 0.940298507463
-INFO:root:Attack Yugi directly with Ansatsu (1700) 66/67 , 0.985074626866
-INFO:root:Attack Yugi directly with Dragon Zombie (1600) 63/67 , 0.940298507463
-INFO:root:Attacking Yugi directly with Ansatsu
-INFO:root:Yugi's life points are now 2000
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Winged Dragon, Guardian of the Fortress #1 (1400)
-INFO:root:Attack Yugi directly with Dragon Zombie (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 64/65 , 0.984615384615
-INFO:root:Attack Yugi directly with Winged Dragon, Guardian of the Fortress #1 (1400) 62/63 , 0.984126984127
-INFO:root:Attack Yugi directly with Dragon Zombie (1600) 62/63 , 0.984126984127
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Celtic Guardian
-INFO:root:Summoning Neo the Magic Swordsman
-INFO:root:Battle Phase Turn Number 8
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Ansatsu (1700) with Neo the Magic Swordsman (1700)
-INFO:root:Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 12/53 , 0.22641509434
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Neo the Magic Swordsman (1700) 17/53 , 0.320754716981
-INFO:root:Attack Ansatsu (1700) with Neo the Magic Swordsman (1700) 13/53 , 0.245283018868
-INFO:root:Attack Dragon Zombie (1600) with Neo the Magic Swordsman (1700) 8/49 , 0.163265306122
-INFO:root:Attacking Winged Dragon, Guardian of the Fortress #1 with Neo the Magic Swordsman
-INFO:root:Winged Dragon, Guardian of the Fortress #1 is now destroyed
-INFO:root:Opponent's life points are now 3700
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Silver Fang
-INFO:root:Summoning Gaia the Fierce Knight
-INFO:root:Battle Phase Turn Number 9
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Neo the Magic Swordsman (1700) with Gaia the Fierce Knight (2300)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Ansatsu (1700)
-INFO:root:Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 72/76 , 0.947368421053
-INFO:root:Attack Neo the Magic Swordsman (1700) with Gaia the Fierce Knight (2300) 74/76 , 0.973684210526
-INFO:root:Attack Neo the Magic Swordsman (1700) with Ansatsu (1700) 60/73 , 0.821917808219
-INFO:root:Attack Neo the Magic Swordsman (1700) with Dragon Zombie (1600) 67/73 , 0.917808219178
-INFO:root:Attacking Neo the Magic Swordsman with Gaia the Fierce Knight
-INFO:root:Neo the Magic Swordsman is now destroyed
-INFO:root:Yugi's life points are now 1400
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Ansatsu (1700)
-INFO:root:Attack Yugi directly with Dragon Zombie (1600)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 57/58 , 0.98275862069
-INFO:root:Attack Yugi directly with Ansatsu (1700) 55/56 , 0.982142857143
-INFO:root:Attack Yugi directly with Dragon Zombie (1600) 57/58 , 0.98275862069
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Witty Phantom
-INFO:root:Summoning Silver Fang
-INFO:root:Battle Phase Turn Number 10
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Gaia the Fierce Knight (2300) with Silver Fang (1200)
-INFO:root:Attack Ansatsu (1700) with Silver Fang (1200)
-INFO:root:Attack Dragon Zombie (1600) with Silver Fang (1200)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 2/30 , 0.0666666666667
-INFO:root:Attack Gaia the Fierce Knight (2300) with Silver Fang (1200) 1/30 , 0.0333333333333
-INFO:root:Attack Ansatsu (1700) with Silver Fang (1200) 0/29 , 0.0
-INFO:root:Attack Dragon Zombie (1600) with Silver Fang (1200) 0/29 , 0.0
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Ancient Elf
-INFO:root:Summoning Silver Fang
-INFO:root:Battle Phase Turn Number 11
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Silver Fang (1200) with Gaia the Fierce Knight (2300)
-INFO:root:Attack Silver Fang (1200) with Ansatsu (1700)
-INFO:root:Attack Silver Fang (1200) with Dragon Zombie (1600)
-INFO:root:Attack Silver Fang (1200) with Silver Fang (1200)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 68/69 , 0.985507246377
-INFO:root:Attack Silver Fang (1200) with Gaia the Fierce Knight (2300) 68/69 , 0.985507246377
-INFO:root:Attack Silver Fang (1200) with Ansatsu (1700) 55/66 , 0.833333333333
-INFO:root:Attack Silver Fang (1200) with Dragon Zombie (1600) 60/65 , 0.923076923077
-INFO:root:Attack Silver Fang (1200) with Silver Fang (1200) 64/65 , 0.984615384615
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Claw Reacher
-INFO:root:Summoning Witty Phantom
-INFO:root:Battle Phase Turn Number 12
-INFO:root:9 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Gaia the Fierce Knight (2300) with Silver Fang (1200)
-INFO:root:Attack Ansatsu (1700) with Silver Fang (1200)
-INFO:root:Attack Dragon Zombie (1600) with Silver Fang (1200)
-INFO:root:Attack Silver Fang (1200) with Silver Fang (1200)
-INFO:root:Attack Gaia the Fierce Knight (2300) with Witty Phantom (1400)
-INFO:root:Attack Ansatsu (1700) with Witty Phantom (1400)
-INFO:root:Attack Dragon Zombie (1600) with Witty Phantom (1400)
-INFO:root:Attack Silver Fang (1200) with Witty Phantom (1400)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 0/31 , 0.0
-INFO:root:Attack Gaia the Fierce Knight (2300) with Silver Fang (1200) 1/28 , 0.0357142857143
-INFO:root:Attack Ansatsu (1700) with Silver Fang (1200) 1/29 , 0.0344827586207
-INFO:root:Attack Dragon Zombie (1600) with Silver Fang (1200) 0/31 , 0.0
-INFO:root:Attack Silver Fang (1200) with Silver Fang (1200) 0/31 , 0.0
-INFO:root:Attack Gaia the Fierce Knight (2300) with Witty Phantom (1400) 0/31 , 0.0
-INFO:root:Attack Ansatsu (1700) with Witty Phantom (1400) 0/29 , 0.0
-INFO:root:Attack Dragon Zombie (1600) with Witty Phantom (1400) 0/31 , 0.0
-INFO:root:Attack Silver Fang (1200) with Witty Phantom (1400) 0/31 , 0.0
-INFO:root:Attacking Gaia the Fierce Knight with Silver Fang
-INFO:root:Silver Fang is now destroyed
-INFO:root:Yugi's life points are now 300
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Gaia the Fierce Knight (2300) with Witty Phantom (1400)
-INFO:root:Attack Ansatsu (1700) with Witty Phantom (1400)
-INFO:root:Attack Dragon Zombie (1600) with Witty Phantom (1400)
-INFO:root:Attack Silver Fang (1200) with Witty Phantom (1400)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 0/26 , 0.0
-INFO:root:Attack Gaia the Fierce Knight (2300) with Witty Phantom (1400) 0/23 , 0.0
-INFO:root:Attack Ansatsu (1700) with Witty Phantom (1400) 2/23 , 0.0869565217391
-INFO:root:Attack Dragon Zombie (1600) with Witty Phantom (1400) 0/22 , 0.0
-INFO:root:Attack Silver Fang (1200) with Witty Phantom (1400) 0/22 , 0.0
-INFO:root:Attacking Ansatsu with Witty Phantom
-INFO:root:Witty Phantom is now destroyed
-INFO:root:GAME OVER!
-INFO:root:Yugi's life points are now 0
-INFO:root:Yugi drew Ansatsu
-INFO:root:Opponent drew Silver Fang
-INFO:root:Yugi drew Celtic Guardian
-INFO:root:Opponent drew Summoned Skull
-INFO:root:Yugi drew Winged Dragon, Guardian of the Fortress #1
-INFO:root:Opponent drew Magical Ghost
-INFO:root:Yugi drew Gaia the Fierce Knight
-INFO:root:Opponent drew Curse of Dragon
-INFO:root:Yugi drew Claw Reacher
-INFO:root:Opponent drew Beaver Warrior
-INFO:root:
-BEGIN GAME!!!
-
-INFO:root:Yugi goes first
-INFO:root:Yugi drew Witty Phantom
-INFO:root:Summoning Winged Dragon, Guardian of the Fortress #1
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Baron of the Fiend Sword
-INFO:root:Summoning Magical Ghost
-INFO:root:Battle Phase Turn Number 2
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Magical Ghost (1300)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 32/66 , 0.484848484848
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Magical Ghost (1300) 37/65 , 0.569230769231
-INFO:root:Attacking Winged Dragon, Guardian of the Fortress #1 with Magical Ghost
-INFO:root:Magical Ghost is now destroyed
-INFO:root:Opponent's life points are now 3900
+INFO:root:Opponent's life points are now 2700
 INFO:root:1 valid moves
 INFO:root:Advance Turn
 INFO:root:It is now Yugi's Turn
 INFO:root:Yugi drew Sorcerer of the Doomed
-INFO:root:Summoning Ansatsu
-INFO:root:Battle Phase Turn Number 3
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Opponent directly with Winged Dragon, Guardian of the Fortress #1 (1400)
-INFO:root:Attack Opponent directly with Ansatsu (1700)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 62/82 , 0.756097560976
-INFO:root:Attack Opponent directly with Winged Dragon, Guardian of the Fortress #1 (1400) 65/79 , 0.822784810127
-INFO:root:Attack Opponent directly with Ansatsu (1700) 57/79 , 0.721518987342
-INFO:root:Attacking Opponent directly with Winged Dragon, Guardian of the Fortress #1
-INFO:root:Opponent's life points are now 2500
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Opponent directly with Ansatsu (1700)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 53/67 , 0.791044776119
-INFO:root:Attack Opponent directly with Ansatsu (1700) 51/65 , 0.784615384615
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Doma the Angel of Silence
-INFO:root:Summoning Baron of the Fiend Sword
-INFO:root:Battle Phase Turn Number 4
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Baron of the Fiend Sword (1550)
-INFO:root:Attack Ansatsu (1700) with Baron of the Fiend Sword (1550)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 7/56 , 0.125
-INFO:root:Attack Winged Dragon, Guardian of the Fortress #1 (1400) with Baron of the Fiend Sword (1550) 21/58 , 0.362068965517
-INFO:root:Attack Ansatsu (1700) with Baron of the Fiend Sword (1550) 3/58 , 0.051724137931
-INFO:root:Attacking Winged Dragon, Guardian of the Fortress #1 with Baron of the Fiend Sword
-INFO:root:Winged Dragon, Guardian of the Fortress #1 is now destroyed
-INFO:root:Yugi's life points are now 3850
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Feral Imp
-INFO:root:Summoning Celtic Guardian
-INFO:root:Battle Phase Turn Number 5
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Baron of the Fiend Sword (1550) with Celtic Guardian (1400)
-INFO:root:Attack Baron of the Fiend Sword (1550) with Ansatsu (1700)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 57/82 , 0.69512195122
-INFO:root:Attack Baron of the Fiend Sword (1550) with Celtic Guardian (1400) 67/79 , 0.848101265823
-INFO:root:Attack Baron of the Fiend Sword (1550) with Ansatsu (1700) 60/79 , 0.759493670886
-INFO:root:Attacking Baron of the Fiend Sword with Celtic Guardian
-INFO:root:Celtic Guardian is now destroyed
-INFO:root:Yugi's life points are now 3700
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Baron of the Fiend Sword (1550) with Ansatsu (1700)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 61/97 , 0.628865979381
-INFO:root:Attack Baron of the Fiend Sword (1550) with Ansatsu (1700) 61/97 , 0.628865979381
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Mystic Clown
-INFO:root:Summoning Summoned Skull
-INFO:root:Battle Phase Turn Number 6
-INFO:root:3 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Ansatsu (1700) with Baron of the Fiend Sword (1550)
-INFO:root:Attack Ansatsu (1700) with Summoned Skull (2500)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 66/71 , 0.929577464789
-INFO:root:Attack Ansatsu (1700) with Baron of the Fiend Sword (1550) 68/71 , 0.957746478873
-INFO:root:Attack Ansatsu (1700) with Summoned Skull (2500) 69/70 , 0.985714285714
-INFO:root:Attacking Ansatsu with Summoned Skull
-INFO:root:Ansatsu is now destroyed
-INFO:root:Yugi's life points are now 2900
-INFO:root:2 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Baron of the Fiend Sword (1550)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 66/67 , 0.985074626866
-INFO:root:Attack Yugi directly with Baron of the Fiend Sword (1550) 62/65 , 0.953846153846
-INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Mammoth Graveyard
-INFO:root:Summoning Mammoth Graveyard
+INFO:root:Summoning Mystical Elf
 INFO:root:Battle Phase Turn Number 7
 INFO:root:3 valid moves
 INFO:root:Advance Turn
-INFO:root:Attack Baron of the Fiend Sword (1550) with Mammoth Graveyard (1200)
-INFO:root:Attack Summoned Skull (2500) with Mammoth Graveyard (1200)
+INFO:root:Attack Opponent directly with Curse of Dragon (2000)
+INFO:root:Attack Opponent directly with Mystical Elf (800)
 INFO:root:Beginning ISMCTS Simulation
 INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 0/94 , 0.0
-INFO:root:Attack Baron of the Fiend Sword (1550) with Mammoth Graveyard (1200) 3/91 , 0.032967032967
-INFO:root:Attack Summoned Skull (2500) with Mammoth Graveyard (1200) 0/91 , 0.0
-INFO:root:Attacking Baron of the Fiend Sword with Mammoth Graveyard
-INFO:root:Mammoth Graveyard is now destroyed
-INFO:root:Yugi's life points are now 2550
+INFO:root:Advance Turn 70/71 , 0.985915492958
+INFO:root:Attack Opponent directly with Curse of Dragon (2000) 62/70 , 0.885714285714
+INFO:root:Attack Opponent directly with Mystical Elf (800) 70/71 , 0.985915492958
+INFO:root:It is now Opponent's Turn
+INFO:root:Opponent drew Ancient Elf
+INFO:root:Summoning Magical Ghost
+INFO:root:Battle Phase Turn Number 8
+INFO:root:3 valid moves
+INFO:root:Advance Turn
+INFO:root:Attack Curse of Dragon (2000) with Magical Ghost (1300)
+INFO:root:Attack Mystical Elf (800) with Magical Ghost (1300)
+INFO:root:Beginning ISMCTS Simulation
+INFO:root:Ending ISMCTS Simulation
+INFO:root:Advance Turn 5/34 , 0.147058823529
+INFO:root:Attack Curse of Dragon (2000) with Magical Ghost (1300) 8/33 , 0.242424242424
+INFO:root:Attack Mystical Elf (800) with Magical Ghost (1300) 8/33 , 0.242424242424
+INFO:root:Attacking Curse of Dragon with Magical Ghost
+INFO:root:Magical Ghost is now destroyed
+INFO:root:Opponent's life points are now 2000
 INFO:root:1 valid moves
 INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Winged Dragon, Guardian of the Fortress #1
-INFO:root:Summoning Beaver Warrior
-INFO:root:Battle Phase Turn Number 8
-INFO:root:4 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Baron of the Fiend Sword (1550)
-INFO:root:Attack Yugi directly with Summoned Skull (2500)
-INFO:root:Attack Yugi directly with Beaver Warrior (1200)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 75/76 , 0.986842105263
-INFO:root:Attack Yugi directly with Baron of the Fiend Sword (1550) 72/76 , 0.947368421053
-INFO:root:Attack Yugi directly with Summoned Skull (2500) 68/73 , 0.931506849315
-INFO:root:Attack Yugi directly with Beaver Warrior (1200) 72/73 , 0.986301369863
 INFO:root:It is now Yugi's Turn
-INFO:root:Yugi drew Baron of the Fiend Sword
-INFO:root:Summoning Feral Imp
+INFO:root:Yugi drew Celtic Guardian
+INFO:root:Summoning Ancient Elf
 INFO:root:Battle Phase Turn Number 9
 INFO:root:4 valid moves
 INFO:root:Advance Turn
-INFO:root:Attack Baron of the Fiend Sword (1550) with Feral Imp (1300)
-INFO:root:Attack Summoned Skull (2500) with Feral Imp (1300)
-INFO:root:Attack Beaver Warrior (1200) with Feral Imp (1300)
+INFO:root:Attack Opponent directly with Curse of Dragon (2000)
+INFO:root:Attack Opponent directly with Mystical Elf (800)
+INFO:root:Attack Opponent directly with Ancient Elf (1450)
 INFO:root:Beginning ISMCTS Simulation
 INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 0/33 , 0.0
-INFO:root:Attack Baron of the Fiend Sword (1550) with Feral Imp (1300) 0/30 , 0.0
-INFO:root:Attack Summoned Skull (2500) with Feral Imp (1300) 2/29 , 0.0689655172414
-INFO:root:Attack Beaver Warrior (1200) with Feral Imp (1300) 0/29 , 0.0
-INFO:root:Attacking Summoned Skull with Feral Imp
-INFO:root:Feral Imp is now destroyed
-INFO:root:Yugi's life points are now 1350
-INFO:root:1 valid moves
-INFO:root:Advance Turn
-INFO:root:It is now Opponent's Turn
-INFO:root:Opponent drew Celtic Guardian
-INFO:root:Summoning Curse of Dragon
-INFO:root:Battle Phase Turn Number 10
-INFO:root:5 valid moves
-INFO:root:Advance Turn
-INFO:root:Attack Yugi directly with Baron of the Fiend Sword (1550)
-INFO:root:Attack Yugi directly with Summoned Skull (2500)
-INFO:root:Attack Yugi directly with Beaver Warrior (1200)
-INFO:root:Attack Yugi directly with Curse of Dragon (2000)
-INFO:root:Beginning ISMCTS Simulation
-INFO:root:Ending ISMCTS Simulation
-INFO:root:Advance Turn 31/32 , 0.96875
-INFO:root:Attack Yugi directly with Baron of the Fiend Sword (1550) 32/33 , 0.969696969697
-INFO:root:Attack Yugi directly with Summoned Skull (2500) 35/36 , 0.972222222222
-INFO:root:Attack Yugi directly with Beaver Warrior (1200) 32/33 , 0.969696969697
-INFO:root:Attack Yugi directly with Curse of Dragon (2000) 31/32 , 0.96875
-INFO:root:Attacking Yugi directly with Summoned Skull
+INFO:root:Advance Turn 68/73 , 0.931506849315
+INFO:root:Attack Opponent directly with Curse of Dragon (2000) 69/70 , 0.985714285714
+INFO:root:Attack Opponent directly with Mystical Elf (800) 60/70 , 0.857142857143
+INFO:root:Attack Opponent directly with Ancient Elf (1450) 69/70 , 0.985714285714
+INFO:root:Attacking Opponent directly with Curse of Dragon
 INFO:root:GAME OVER!
-INFO:root:Yugi's life points are now 0
+INFO:root:Opponent's life points are now 0
