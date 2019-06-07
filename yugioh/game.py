@@ -21,23 +21,87 @@ class Game():
         self.turn_number = 1
         self.winner = None
         self.is_sim = is_sim
+        self.game_is_over = False
+        self.game_has_begun = False
 
 
     def play_game(self):
-        self.initialize_game()
-        while self.p1.life_points > 0 and self.p2.life_points > 0 and len(self.p1.deck.cards) > 0 and len(self.p2.deck.cards) > 0:
-            if self.turn == self.p1:
-                self.play_turn(self.turn, self.p2)
-            else:
-                self.play_turn(self.turn, self.p1)
-            if self.p1.life_points <= 0 or self.p2.life_points <= 0:
-                break
-            self.change_turn()
+        if self.game_is_over:
+            return
+
+        if not self.game_has_begun:
+            self.initialize_game()
+
+        while not self.game_is_over:
+            self.play_turn(self.turn, self.get_opponent())
+
         self.declare_winner()
+
+
+    def play_turn(self, player, opponent):
+        if self.is_game_over():
+            return False
+
+        turn_in_progress = True
+        while turn_in_progress:
+            turn_in_progress = self.play_phase()
+
+        if self.game_is_over:
+            return False
+        return True
+
+
+    def play_phase(self):
+        if self.is_game_over():
+            return False
+
+        phase_in_progress = True
+        while phase_in_progress:
+            phase_in_progress = self.play_step()
+        if self.is_game_over():
+            return False
+
+
+    def play_step(self):
+        if self.is_game_over():
+            return False
+        phase_continue = self.current_phase.execute_step()
+        if not phase_continue:
+            if self.is_game_over():
+                return False
+            self.change_phase()
+
+
+    def change_phase(self):
+        phase_index = self.phase_list.index(self.current_phase) + 1
+        if phase_index == len(self.phase_list):
+            self.change_turn()
+            return False
+        else:
+            self.current_phase = self.phase_list[phase_index]
+
+        return True
+
+
+    def change_turn(self):
+        if self.turn == self.p1:
+            self.turn = self.p2
+        else:
+            self.turn = self.p1
+        self.turn_number += 1
+        self.log_sim("It is now " + self.turn.name + "'s Turn")
+        self.phase_list = self.get_phase_list(self.turn, self.get_opponent())
+        self.current_phase = self.phase_list[0]
 
 
     def flip_coin(self):
         return random.randint(0, 1)
+
+
+    def is_game_over(self):
+        if self.p1.life_points <= 0 or self.p2.life_points <= 0:
+            self.game_is_over = True
+        return self.game_is_over
 
 
     def get_opponent(self):
@@ -45,6 +109,13 @@ class Game():
             return self.p2
         else:
             return self.p1
+
+
+    def get_player(self):
+        if self.turn == self.p1:
+            return self.p1
+        else:
+            return self.p2
 
 
     def get_phase_list(self, player, opponent):
@@ -55,36 +126,6 @@ class Game():
             phase_list.append(BattlePhase(player, opponent, self.turn_number))
         phase_list.append(MainPhase2(player))
         return phase_list
-
-
-    def play_phase(self):
-        self.current_phase.execute_phase()
-        phase_index = self.phase_list.index(self.current_phase) + 1
-        if phase_index == len(self.phase_list):
-            self.change_turn()
-        else:
-            self.current_phase = self.phase_list[phase_index]
-
-
-    def play_turn(self, player, opponent):
-        phase_list = self.get_phase_list(player, opponent)
-        for phase in phase_list:
-            phase.execute_phase()
-
-
-    def play_turn_backup(self, player, opponent):
-        dp = DrawPhase(player)
-        dp.execute_phase()
-
-        mp = MainPhase(player)
-        mp.execute_phase()
-
-        if self.turn_number > 1:
-            bp = BattlePhase(player, opponent, self.turn_number)
-            bp.execute_phase()
-
-        mp2 = MainPhase2(player)
-        mp2.execute_phase()
 
 
     def initialize_game(self):
@@ -104,17 +145,7 @@ class Game():
         logging.info(self.turn.name + " goes first")
         self.phase_list = self.get_phase_list(self.turn, self.get_opponent())
         self.current_phase = self.phase_list[0]
-
-
-    def change_turn(self):
-        if self.turn == self.p1:
-            self.turn = self.p2
-        else:
-            self.turn = self.p1
-        self.turn_number += 1
-        self.log_sim("It is now " + self.turn.name + "'s Turn")
-        self.phase_list = self.get_phase_list(self.turn, self.get_opponent())
-        self.current_phase = self.phase_list[0]
+        self.game_has_begun = True
 
 
     def declare_winner(self):
@@ -138,6 +169,12 @@ class Phase():
 
 
     def execute_phase(self):
+        phase_ongoing = True
+        while phase_ongoing:
+            phase_ongoing = self.execute_step()
+
+
+    def execute_step(self):
         raise NotImplementedError('users must define execute to use this base class')
 
 
@@ -146,22 +183,26 @@ class Phase():
         return node_score + (c * math.sqrt(np.log(total_sims)/edge_sims))
 
 
+    def log_sim(self, message):
+        if self.is_sim:
+            logging.debug(message)
+        else:
+            logging.info(message)
+
+
 class DrawPhase(Phase):
     def __init__(self, player, is_sim=False):
         Phase.__init__(self, player, is_sim)
-    def execute_phase(self):
+
+
+    def execute_step(self):
         self.player.draw_card()
+        return False
 
 
 class MainPhase(Phase):
     def __init__(self, player, is_sim=False):
         Phase.__init__(self, player, is_sim)
-
-
-    def execute_phase(self):
-        card_choice = self.player.decisionmanager.make_decision(self.player.hand.cards)
-        move = actions.NormalSummon(self.player, card_choice, is_sim=self.is_sim)
-        move.execute_move()
 
 
     def get_valid_moves(self):
@@ -174,6 +215,13 @@ class MainPhase(Phase):
         return move_list
 
 
+    def execute_step(self):
+        card_choice = self.player.decisionmanager.make_decision(self.player.hand.cards)
+        move = actions.NormalSummon(self.player, card_choice, is_sim=self.is_sim)
+        move.execute_move()
+        return False
+
+
 class BattlePhase(Phase):
     def __init__(self, player, opponent, turn_number, is_sim=False, get_first_move=False, preselected_move=None):
         Phase.__init__(self, player, is_sim)
@@ -181,6 +229,50 @@ class BattlePhase(Phase):
         self.get_first_move = get_first_move
         self.preselected_move = preselected_move
         self.turn_number = turn_number
+
+
+    def execute_step(self):
+        self.player.memory.append(statedraw.write_game_state(self.player, self.opponent))
+        move_list = self.get_valid_moves()
+        self.log_sim(str(len(move_list)) + " valid moves")
+        for mv in move_list:
+            self.log_sim(mv.get_name())
+
+        if not self.is_sim:
+            if len(move_list) > 1:
+                best_move = self.get_best_move_from_ismcts() # Tests the game in progress
+                logging.debug('Selected best move: ' + best_move.get_name())
+                for mv in move_list:
+                    logging.debug('Comparing against: ' + mv.get_name())
+                    if best_move == mv:
+                        logging.debug('Match Obtained')
+                        move = mv
+                        break
+            else:
+                logging.debug('Single move available')
+                move = move_list[0]
+        elif self.preselected_move != None:
+            logging.debug('Using Preselected Move')
+            preselected_move_located = False
+            for mv in move_list:
+                if self.preselected_move == mv:
+                    move = mv
+                    preselected_move_located = True
+                    break
+            self.preselected_move = None
+        else:
+            logging.debug('Rolling out for move')
+            move = self.player.decisionmanager.make_decision(move_list)
+        
+        move.execute_move()
+        if self.get_first_move:
+            self.set_post_state(move)
+            self.get_first_move = False
+        if isinstance(move, actions.AdvanceTurn):
+            return False
+        if self.player.life_points <= 0 or self.opponent.life_points <= 0:
+            return False
+        return True
 
 
     def get_valid_moves(self):
@@ -200,90 +292,12 @@ class BattlePhase(Phase):
         return move_list
 
 
-    def execute_phase(self):
-        if self.is_sim:
-            logging.debug('Battle Phase Turn Number ' + str(self.turn_number))
-        else:
-            logging.info('Battle Phase Turn Number ' + str(self.turn_number))
-        while True:
-            self.player.memory.append(statedraw.write_game_state(self.player, self.opponent))
-            move_list = self.get_valid_moves()
-            message = str(len(move_list)) + " valid moves"
-            if self.is_sim:
-                logging.debug(message)
-            else:
-                logging.info(message)
-            for mv in move_list:
-                if self.is_sim:
-                    logging.debug(mv.get_name())
-                else:
-                    logging.info(mv.get_name())
-
-            if not self.is_sim:
-                if len(move_list) > 1:
-                    logging.debug('Selecting Move From ISMCTS')
-                    #best_move = self.get_best_move() # Tests the game in progress
-                    best_move = self.get_best_move_from_ismcts() # Tests the game in progress
-                    logging.debug('Selected best move: ' + best_move.get_name())
-                    for mv in move_list:
-                        logging.debug('Comparing against: ' + mv.get_name())
-                        if best_move == mv:
-                            logging.debug('Match Obtained')
-                            move = mv
-                            break
-                else:
-                    logging.debug('Single move available')
-                    move = move_list[0]
-            elif self.preselected_move != None:
-                logging.debug('Using Preselected Move')
-                preselected_move_located = False
-                for mv in move_list:
-                    if self.preselected_move == mv:
-                        move = mv
-                        preselected_move_located = True
-                        break
-                if not preselected_move_located:
-                    logging.debug('Preselected Move Not Found')
-                    logging.debug('Preselected Move: ' + self.preselected_move.get_name())
-                    for mv in move_list:
-                        logging.debug('Move In List: ' + mv.get_name())
-                self.preselected_move = None
-            else:
-                logging.debug('Rolling out for move')
-                move = self.player.decisionmanager.make_decision(move_list)
-            
-            move.execute_move()
-            if self.get_first_move:
-                logging.debug('get_first_move is TRUE')
-                self.chosen_first_move = move # Assigns the first chosen move to the phase to be returned for calculation of the move score
-                self.post_player = copy.deepcopy(self.player)
-                self.post_opponent = copy.deepcopy(self.opponent)
-                self.get_first_move = False
-                logging.debug('Assigning Post Player with Stats:')
-                logging.debug('Post Player Name: ' + self.post_player.name)
-                logging.debug('Post Opponent Name: ' + self.post_opponent.name)
-                logging.debug('Post Player LP: ' + str(self.post_player.life_points))
-                logging.debug('Post Opponent LP: ' + str(self.post_opponent.life_points))
-            if isinstance(move, actions.AdvanceTurn):
-                break
-            if self.player.life_points <= 0 or self.opponent.life_points <= 0:
-                break
-
-
     def get_best_move_from_ismcts(self):
         logging.info('Beginning ISMCTS Simulation')
         ismcts = self.buildISMCTS()
         i = 0
         while i < 100:
             sim_game, node, edges, move = self.select_sim_node(ismcts)
-            logging.debug('Selected Node Details:')
-            logging.debug(node.player.name)
-            logging.debug(node.player.life_points)
-            logging.debug(node.opponent.name)
-            logging.debug(node.opponent.life_points)
-            logging.debug(node.sims)
-            logging.debug(node.wins)
-            logging.debug(len(node.edges))
 
             if node.player == self.player:
                 is_player_turn = True
@@ -369,6 +383,12 @@ class BattlePhase(Phase):
         return simmed_game, current_node, edges, move
 
 
+    def set_post_state(self, move):
+        self.chosen_first_move = move # Assigns the first chosen move to the phase to be returned for calculation of the move score
+        self.post_player = copy.deepcopy(self.player)
+        self.post_opponent = copy.deepcopy(self.opponent)
+
+
     def get_untested_move(self, game_move_list, node_move_list):
         for mv in game_move_list:
             if mv not in node_move_list:
@@ -399,9 +419,10 @@ class MainPhase2(Phase):
         Phase.__init__(self, player, is_sim)
 
 
-    def execute_phase(self):
+    def execute_step(self):
         for monster in self.player.board.get_monsters():
             monster.attacked_this_turn = False
+        return False
 
 
 class GameInProgress(Game):
