@@ -124,6 +124,6 @@ def test_iterate_battle_phase():
 
 if __name__ == '__main__':
     ### Test TBD game ends on draw phase
-    test_iterate()
+    test_iterate_battle_phase()
 
 
