@@ -15,6 +15,33 @@ class Action():
         return canvas
 
 
+class DrawCard(Action):
+    def __init__(self, player, is_sim=False):
+        Action.__init__(self, is_sim)
+        self.player = player
+
+
+    def get_name(self):
+        return "Draw Card"
+
+
+    def execute_move(self):
+        self.player.draw_card()
+        return False
+
+
+    def __eq__(self, other):
+        return isinstance(other, DrawCard)
+
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+
+    def __hash__(self):
+        return hash("DrawCard")
+
+
 class AdvanceTurn(Action):
     def __init__(self, is_sim=False):
         Action.__init__(self, is_sim)
@@ -35,6 +62,7 @@ class AdvanceTurn(Action):
     def __ne__(self, other):
         return not self.__eq__(other)
 
+
     def __hash__(self):
         return hash("AdvanceTurn")
 
@@ -45,8 +73,10 @@ class NormalSummon(Action):
         self.player = player
         self.monster = monster
 
+
     def get_name(self):
         return " Normal Summon " + self.monster.name
+
 
     def check_validity(self):
         if self.monster not in self.player.hand.cards:
@@ -54,6 +84,7 @@ class NormalSummon(Action):
         if self.player.board.get_occupied_monster_spaces() >= 5:
             return False
         return True
+
 
     def execute_move(self):
         if not self.check_validity():

@@ -4,11 +4,21 @@ import actions
 import decisionmanager
 import statedraw
 import math
+import json
 import numpy as np
 import pdb
 
+from pandas.io.json import json_normalize
 from timeit import default_timer as timer
 from ISMCTS import Node, Edge, InfoSet, ISMCTS
+from sklearn import preprocessing
+
+from keras.models import Sequential
+from keras.layers import Activation
+from keras.layers import BatchNormalization
+from keras.layers import Dense
+from keras.layers import Flatten
+from keras import regularizers
 
 import copy
 import random
@@ -16,16 +26,19 @@ import operator
 import logging
 
 class Game():
-    def __init__(self, p1, p2, is_sim=False, turn_number=1, entry_phase=None, preselected_first_move=None, shuffle_unknown_cards=False):
+    def __init__(self, p1, p2, rollout=False, is_sim=False, turn_number=1, entry_phase=None, preselected_first_move=None, shuffle_unknown_cards=False):
         self.p1 = p1
         self.p2 = p2
         self.turn_number = turn_number
         self.winner = None
+        self.rollout = rollout
         self.is_sim = is_sim
         self.game_is_over = False
         self.game_has_begun = False
         self.save_first_move = False
         self.preselected_first_move = preselected_first_move
+        self.model = None
+        self.scaler = None
 
         if shuffle_unknown_cards:
             self.shuffle_unknown_cards()
@@ -35,10 +48,37 @@ class Game():
             self.begin_phase = entry_phase
             self.save_first_move = True
             self.initialize_sim_game()
+        else:
+            self.model = self.create_model_structure()
+            self.scaler = self.create_scaler()
+
+
+    def create_model_structure(self):
+        model = Sequential()
+        model.add(Dense(100, input_dim=59, activation="relu", kernel_regularizer=regularizers.l2(0.0002)))
+        model.add(BatchNormalization())
+        model.add(Dense(50, activation="relu", kernel_regularizer=regularizers.l2(0.0002)))
+        model.add(BatchNormalization())
+        model.add(Dense(1, activation="sigmoid"))
+        model.compile(optimizer='rmsprop',
+                  loss='binary_crossentropy',
+                  metrics=['accuracy'])
+        model.load_weights("model.h5")
+        return model
+
+
+    def create_scaler(self):
+        scaler = preprocessing.MinMaxScaler()
+        with open('training_data.json') as f:
+            data = json.load(f)
+            dfx = json_normalize(data)
+        scaler.fit(dfx)
+        return scaler
 
 
     def play_game(self):
         if self.game_is_over:
+            self.declare_winner()
             return
 
         if not self.game_has_begun:
@@ -76,8 +116,10 @@ class Game():
 
     def play_step(self):
         if self.is_game_over():
+            self.declare_winner()
             return False
         phase_continue = self.current_phase.execute_step()
+        self.preselected_first_move = None
 
         if self.save_first_move:
             self.chosen_first_move = self.current_phase.chosen_first_move
@@ -143,11 +185,11 @@ class Game():
 
     def get_phase_list(self, player, opponent):
         phase_list = []
-        phase_list.append(DrawPhase(player, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
-        phase_list.append(MainPhase(player, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
+        phase_list.append(DrawPhase(player, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
+        phase_list.append(MainPhase(player, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
         if self.turn_number > 1:
-            phase_list.append(BattlePhase(player, opponent, self.turn_number, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
-        phase_list.append(MainPhase2(player, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
+            phase_list.append(BattlePhase(player, opponent, self.turn_number, self.model, self.scaler, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
+        phase_list.append(MainPhase2(player, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
         return phase_list
 
 
@@ -186,6 +228,10 @@ class Game():
 
 
     def declare_winner(self):
+        self.log_sim(self.p1.name + " " + str(self.p1.life_points))
+        self.log_sim(self.p1.name + " " + str(self.p1.deck.cards))
+        self.log_sim(self.p2.name + " " + str(self.p2.life_points))
+        self.log_sim(self.p2.name + " " + str(self.p2.deck.cards))
         if self.p1.life_points <= 0 or len(self.p1.deck.cards) <= 0:
             self.winner = self.p2
         elif self.p2.life_points <= 0 or len(self.p2.deck.cards) <= 0:
@@ -219,8 +265,9 @@ class Game():
 
 
 class Phase():
-    def __init__(self, player, is_sim=False, get_first_move=False, preselected_move=None):
+    def __init__(self, player, rollout=False, is_sim=False, get_first_move=False, preselected_move=None):
         self.player = player
+        self.rollout = rollout
         self.is_sim = is_sim
         self.get_first_move = get_first_move
         self.preselected_move = preselected_move
@@ -240,6 +287,17 @@ class Phase():
         raise NotImplementedError('users must define to use this base class')
 
 
+    def get_corresponding_action(self, external_move):
+        for move in self.get_valid_moves():
+            if move == external_move:
+                return move
+        return None
+
+
+    def run_simulation(self, ismcts):
+        return ismcts
+
+
     def ucb1(self, node_score, total_sims, edge_sims):
         c = math.sqrt(2)
         return node_score + (c * math.sqrt(np.log(total_sims)/edge_sims))
@@ -253,8 +311,14 @@ class Phase():
 
 
 class DrawPhase(Phase):
-    def __init__(self, player, is_sim=False, get_first_move=False, preselected_move=None):
-        Phase.__init__(self, player, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
+    def __init__(self, player, rollout=False, is_sim=False, get_first_move=False, preselected_move=None):
+        Phase.__init__(self, player, rollout=rollout, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
+
+
+    def get_valid_moves(self):
+        move_list = []
+        move_list.append(actions.DrawCard(self.player))
+        return move_list
 
 
     def execute_step(self):
@@ -263,8 +327,8 @@ class DrawPhase(Phase):
 
 
 class MainPhase(Phase):
-    def __init__(self, player, is_sim=False, get_first_move=False, preselected_move=None):
-        Phase.__init__(self, player, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
+    def __init__(self, player, rollout=False, is_sim=False, get_first_move=False, preselected_move=None):
+        Phase.__init__(self, player, rollout=rollout, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
 
 
     def get_valid_moves(self):
@@ -285,10 +349,12 @@ class MainPhase(Phase):
 
 
 class BattlePhase(Phase):
-    def __init__(self, player, opponent, turn_number, is_sim=False, get_first_move=False, preselected_move=None):
-        Phase.__init__(self, player, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
+    def __init__(self, player, opponent, turn_number, model, scaler, rollout=False, is_sim=False, get_first_move=False, preselected_move=None):
+        Phase.__init__(self, player, rollout=rollout, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
         self.opponent = opponent
         self.turn_number = turn_number
+        self.model = model
+        self.scaler = scaler
 
 
     def enter_ismcts_debug(self):
@@ -302,9 +368,13 @@ class BattlePhase(Phase):
         for mv in move_list:
             self.log_sim(mv.get_name())
 
-        if not self.is_sim:
+        if self.rollout:
+            logging.debug('Rolling out for move')
+            move = self.player.decisionmanager.make_decision(move_list)
+        elif not self.is_sim:
             if len(move_list) > 1:
-                best_move = self.get_best_move_from_ismcts() # Tests the game in progress
+                #best_move = self.get_best_move_from_ismcts() # Tests the game in progress
+                best_move = self.get_best_move_from_full_model(self.model, self.scaler)
                 logging.debug('Selected best move: ' + best_move.get_name())
                 for mv in move_list:
                     logging.debug('Comparing against: ' + mv.get_name())
@@ -327,7 +397,7 @@ class BattlePhase(Phase):
         else:
             logging.debug('Rolling out for move')
             move = self.player.decisionmanager.make_decision(move_list)
-        
+
         move.execute_move()
         if self.get_first_move:
             self.set_post_state(move)
@@ -357,15 +427,14 @@ class BattlePhase(Phase):
 
 
     def get_best_move_from_ismcts(self):
-        logging.info('Beginning ISMCTS Simulation')
+        logging.debug('Beginning ISMCTS Simulation')
         ismcts = self.buildISMCTS()
         i = 0
-        while i < 1600:
-            print "Simulation", i
+        while i < 400:
+            logging.debug('Simulation ' + str(i+1))
             ismcts = self.run_simulation(ismcts)
             i += 1
-            logging.debug('i is now ' + str(i))
-        logging.info('Ending ISMCTS Simulation')
+        logging.debug('Ending ISMCTS Simulation')
 
         max_score = 0
         best_move = None
@@ -378,10 +447,45 @@ class BattlePhase(Phase):
         return best_move
 
 
+    def get_best_move_from_full_model(self, model, scaler):
+        #logging.info('Beginning Full Model Simulation')
+        ismcts = self.buildISMCTS()
+        i = 0
+        while i < 400:
+            logging.debug('Simulation ' + str(i+1))
+            ismcts = self.run_simulation(ismcts)
+            i += 1
+        #logging.info('Ending Full Model Simulation')
+
+        max_score = 0
+        best_move = None
+        for edge in ismcts.root.edges:
+            logging.info("Analyzing " + edge.action.get_name())
+            ismcts_score = edge.post_node.wins/float(edge.post_node.sims)
+            post_state = statedraw.write_game_state(edge.post_node.player, edge.post_node.opponent)
+            post_state['ID'] = 1
+
+            logging.info(post_state)
+
+            dfx = json_normalize([post_state])
+            X = scaler.transform(dfx)
+            network_score = model.predict(X)[0][0]
+            #logging.info('ISMCTS Score: ' + str(ismcts_score))
+            #logging.info('Network Score: ' + str(network_score))
+            #score = (ismcts_score + network_score) / 2
+            score = network_score
+            #logging.info(edge.action.get_name() + " " + str(edge.post_node.wins) + "/" + str(edge.post_node.sims) + " , " + str(score))
+            logging.info(edge.action.get_name() + " , " + str(score))
+            if score > max_score or best_move == None:
+                max_score = score
+                best_move = edge.action
+        return best_move
+
+
     def run_simulation(self, ismcts):
-        t0 = timer()
         sim_game, node, edges, move = self.select_sim_node(ismcts)
-        if node.player == self.player:
+        sim_game.play_step()
+        if sim_game.turn.name == self.player.name:
             is_player_turn = True
         else:
             is_player_turn = False
@@ -389,70 +493,52 @@ class BattlePhase(Phase):
         sim_game.play_game()
         winner = sim_game.winner
         if not node.terminal:
-            logging.debug('Selecting post_player')
             post_player = sim_game.post_player
             post_opponent = sim_game.post_opponent
-            if isinstance(move, actions.AdvanceTurn):
-                is_player_turn = not is_player_turn
-                turn_number = node.turn_number + 1
-            else:
-                is_player_turn = is_player_turn
-                turn_number = node.turn_number
-            
-            logging.debug('Expanding Node With Details:')
-            logging.debug(post_player.name)
-            logging.debug(post_player.life_points)
-            logging.debug(post_opponent.name)
-            logging.debug(post_opponent.life_points)
-            ismcts.expand(node, post_player, post_opponent, move, turn_number, is_player_turn)
-        if winner.name == self.player.name:
-            ismcts.back_propogate(node, edges, True)
+            edge, post_node = ismcts.expand(node, post_player, post_opponent, move, sim_game.turn_number, is_player_turn)
+            edges.append(edge)
         else:
-            ismcts.back_propogate(node, edges, False)
-        t1 = timer()
-        print "Total Simulation time", t1 - t0
-        print ""
+            post_node = node
+
+        if winner.name == self.player.name:
+            ismcts.back_propogate(post_node, edges, True)
+        else:
+            ismcts.back_propogate(post_node, edges, False)
         return ismcts
 
 
     def select_sim_node(self, ismcts):
-        # This must be reworked
-        t0 = timer()
         current_node = ismcts.root
         edges = []
+        simmed_game = self.create_simmed_game(current_node.player, current_node.opponent, 2, BattlePhase, None)
         i = 0
-        time_list = []
         while True:
-            t1 = timer()
-            i += 1
-            simmed_game = self.create_simmed_game(current_node.player, current_node.opponent, 2, BattlePhase, None)
             game_move_list = simmed_game.get_valid_moves()
             node_move_list = current_node.get_actions()
             move = self.get_untested_move(game_move_list, node_move_list)
-            if move: break
+            if move:
+                simmed_game.current_phase.preselected_move = move
+                break
             max_score = 0
             edge_choice = None
             for edge in current_node.edges:
-                node_score = (edge.pre_node.wins / float(edge.pre_node.sims))
+                if simmed_game.turn.name == self.player.name:
+                    node_score = (edge.post_node.wins / float(edge.post_node.sims))
+                else:
+                    losses = edge.post_node.sims - edge.post_node.wins
+                    node_score = (losses / float(edge.post_node.sims))
                 ucb1_score = self.ucb1(node_score, edge.pre_node.sims, edge.post_node.sims)
                 if ucb1_score > max_score or edge_choice == None:
                     edge_choice = edge
                     max_score = ucb1_score
-                edges.append(edge_choice)
-                current_node = edge_choice.post_node
-            t2 = timer()
-            time_list.append(t2 - t1)
 
-        t3 = timer()
-        time_arr = np.array(time_list)
-        print "Total Selection Time:", t3 - t0
-        if len(time_list) > 0:
-            print "Average Iteration Time:", np.mean(time_arr)
-            print "Minimum Iteration Time:", time_arr.min()
-            print "Maximum Iteration Time:", time_arr.max()
-        print i, "Iterations"
+            edges.append(edge_choice)
+            current_node = edge_choice.post_node
+            simmed_game.current_phase.preselected_move = self.get_corresponding_action(edge_choice.action)
+            simmed_game.play_step()
+            i += 1
+
         return simmed_game, current_node, edges, move
-
 
     def set_post_state(self, move):
         self.chosen_first_move = move # Assigns the first chosen move to the phase to be returned for calculation of the move score
@@ -484,8 +570,14 @@ class BattlePhase(Phase):
 
 
 class MainPhase2(Phase):
-    def __init__(self, player, is_sim=False, get_first_move=False, preselected_move=None):
-        Phase.__init__(self, player, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
+    def __init__(self, player, rollout=False, is_sim=False, get_first_move=False, preselected_move=None):
+        Phase.__init__(self, player, rollout=rollout, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
+
+
+    def get_valid_moves(self):
+        move_list = []
+        move_list.append(actions.AdvanceTurn(is_sim=self.is_sim))
+        return move_list
 
 
     def execute_step(self):

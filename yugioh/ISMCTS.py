@@ -10,7 +10,7 @@ class Node():
         self.opponent = opponent
         self.info_set = InfoSet(player, opponent)
         self.turn_number = turn_number
-        self.sims = 1
+        self.sims = 0
         self.wins = 0
         self.edges = []
         if is_player_turn:
@@ -126,11 +126,14 @@ class ISMCTS():
         edge = Edge(pre_node, post_node, action)
         pre_node.edges.append(edge)
         self.tree.add(post_node)
+        return edge, post_node
 
 
     def back_propogate(self, node, edges, player_wins):
+        #print "Backpropogating with", len(edges), "edges"
         current_node = node
         while current_node != None:
+            #print "Iterating through back propogation"
             current_node.sims += 1
             if player_wins:
                 current_node.wins += 1
@@ -143,6 +146,7 @@ class ISMCTS():
 
     def ucb1(self, node_score, total_sims, edge_sims):
         c = math.sqrt(2)
+        #c = .1
         return node_score + (c * math.sqrt(np.log(total_sims)/edge_sims))
 
 

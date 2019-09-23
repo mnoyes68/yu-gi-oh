@@ -16,15 +16,15 @@ scaler = preprocessing.MinMaxScaler()
 #object_props = ['OpponentMonster1', 'OpponentMonster2', 'OpponentMonster3', 'OpponentMonster4', 'OpponentMonster5', 'PlayerMonster1', 'PlayerMonster2', 'PlayerMonster3', 'PlayerMonster4', 'PlayerMonster5']
 object_props = ['OpponentMonster1', 'OpponentMonster2', 'OpponentMonster3', 'OpponentMonster4', 'OpponentMonster5', 'PlayerMonster1', 'PlayerMonster2', 'PlayerMonster3', 'PlayerMonster4', 'PlayerMonster5']
 
-
-with zipfile.ZipFile("./conv_training_data.json.zip", "r") as z:
-    #pd.read_json(z.open('conv_training_data.json'), orient='columns')
-    data = json.load(z.open('conv_training_data.json'))
+with open('training_data.json') as f:
+    data = json.load(f)
+    print type(data)
     df = json_normalize(data)
     print df.head()
 
 
-    '''
+
+'''
     pm1_col = [col for col in df if col.startswith('PlayerMonster1')]
     pm2_col = [col for col in df if col.startswith('PlayerMonster2')]
     pm3_col = [col for col in df if col.startswith('PlayerMonster3')]
@@ -53,16 +53,16 @@ with zipfile.ZipFile("./conv_training_data.json.zip", "r") as z:
         print X
         #print type(X)
         #print X.shape
-    '''
+'''
 
-    '''
+'''
     dfx = pd.read_json(z.open('conv_training_data.json'), orient='columns')
     dfy = pd.read_csv('conv_training_results.csv', sep=',')
     objdfx = dfx[object_props]
     metadfx = dfx.drop(object_props, axis=1)
     X = objdfx.values
     print objdfx.info()
-    '''
+'''
 
     #X = scaler.fit_transform(dfx)
     #X = dfx.values

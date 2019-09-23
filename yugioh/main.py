@@ -5,6 +5,7 @@ import json
 import csv
 import os
 import logging
+import random
 
 from keras.models import Sequential, load_model
 from keras.layers.core import Dense
@@ -41,10 +42,11 @@ def run_training_game(deck_json):
     yugi = player.ComputerPlayer("Yugi", yugi_deck, None)
     opponent = player.ComputerPlayer("Opponent", opp_deck, None)
 
+    #ygogame = game.Game(yugi, opponent, rollout=True)
     ygogame = game.Game(yugi, opponent)
     ygogame.play_game()
     winner = ygogame.winner
-    print "The winner is " + winner.name
+    #print "The winner is " + winner.name
     if winner == yugi:
         victory = True
     else:
@@ -56,6 +58,8 @@ def run_training_game(deck_json):
 if __name__ == "__main__":
     #model = initialize_network()
     #model.load_weights("model.sameweights.h5")
+
+    random.seed(60)
 
     logging.basicConfig(filename='yugioh_game.log', level=logging.INFO, filemode='w')
     id_counter = 1
@@ -69,7 +73,8 @@ if __name__ == "__main__":
         writer.writerow(fieldnames)
         data_file.write('[')
         #while id_counter < 3250000:
-        for i in range(0,1):
+        for i in range(1):
+            print "Game:", i + 1
             memory, victory = run_training_game(deck_json)
             for state in memory:
                 state['ID'] = id_counter
