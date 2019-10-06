@@ -342,7 +342,8 @@ class MainPhase(Phase):
 
 
     def execute_step(self):
-        card_choice = self.player.decisionmanager.make_decision(self.player.hand.cards)
+        card_choice = random.choice(self.player.hand.cards)
+        #card_choice = self.player.decisionmanager.make_decision(self.player.hand.cards)
         move = actions.NormalSummon(self.player, card_choice, is_sim=self.is_sim)
         move.execute_move()
         return False
