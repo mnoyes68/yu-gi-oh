@@ -2,29 +2,53 @@ import cards
 import player
 import game
 import json
+import csv
 import numpy as np
+
+from sklearn import preprocessing
+from sklearn.externals import joblib
+
 from keras.models import Sequential
-from keras.layers.core import Dense
-from keras.optimizers import sgd
+from keras.layers import Activation
+from keras.layers import BatchNormalization
+from keras.layers import Dense
+from keras.layers import Flatten
+from keras import regularizers
+
+from pandas.io.json import json_normalize
+
 import pdb
+import logging
 
-
-def initialize_network():
-    # parameters
-    hidden_size = 40
-
+def create_model_structure():
     model = Sequential()
-    model.add(Dense(hidden_size, input_shape=(40,), activation='relu'))
-    # model.add(Dense(hidden_size, input_shape=(2,20), activation='relu'))
-    # model.add(Dense(hidden_size, input_shape=(20,), activation='relu'))
-    model.add(Dense(hidden_size, activation='sigmoid'))
-    model.add(Dense(1))
-    model.compile(sgd(lr=.2), "mse")
-
+    model.add(Dense(100, input_dim=59, activation="relu", kernel_regularizer=regularizers.l2(0.0002)))
+    #model.add(Dense(100, input_dim=58, activation="relu", kernel_regularizer=regularizers.l2(0.0002)))
+    model.add(BatchNormalization())
+    model.add(Dense(50, activation="relu", kernel_regularizer=regularizers.l2(0.0002)))
+    model.add(BatchNormalization())
+    model.add(Dense(1, activation="sigmoid"))
+    model.compile(optimizer='rmsprop',
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+    model.load_weights("model.h5")
     return model
 
-# Code to play the game
 
+def create_scaler():
+    scaler = joblib.load('training_scaler.pkl') 
+    return scaler
+
+
+# Code to play the game
+def create_and_launch_game(model1, model2, scaler, j):
+    logging.basicConfig(filename='training.log', level=logging.INFO, filemode='w')
+    logging.info('Beginning Game: ' + str(j))
+    with open("decks/yugi.json", "r") as deck:
+        deck_json = json.loads(deck.read())
+        ygogame = create_training_game(deck_json, model1, model2, scaler)
+        ygogame.initialize_game()
+        return ygogame
 
 # Create Cards
 def create_deck(json):
@@ -32,76 +56,92 @@ def create_deck(json):
     for c in json:
         card = cards.MonsterCard(c.get('name'), c.get('id'), c.get('atk'), c.get('defn'), c.get('level'))
         deck_list.append(card)
-    deck = cards.Deck(deck_list)
+    deck = cards.Deck(deck_list, shuffle=False)
     return deck
 
 
-# main
-if __name__ == "__main__":
-    epoch = 50
+def create_training_game(deck_json, model1, model2, scaler):
+    yugi_deck = create_deck(deck_json)
+    opp_deck = create_deck(deck_json)
+
+    yugi = player.ComputerPlayer("Yugi", yugi_deck, model1, scaler)
+    opponent = player.ComputerPlayer("Opponent", opp_deck, model2, scaler)
+
+    ygogame = game.Game(yugi, opponent)
+    return ygogame
+
+
+def fill_memory(winner, loser, memory, results):
+    win_mem = winner.memory
+    loss_mem = loser.memory
+    for i in win_mem:
+        memory.append(i)
+        results.append(1)
+    for j in loss_mem:
+        memory.append(j)
+        results.append(0)
+
+
+def train_network():
+    epoch = 30000
     memory = []
     results = []
     yugi_win_count = 0
     opp_win_count = 0
-    yugi_model = initialize_network()
-    opp_model = initialize_network()
-    result_csv = open("training_results.csv","w") 
+    yugi_model = create_model_structure()
+    opp_model = create_model_structure()
+    scaler = create_scaler()
 
+    '''
+    ygogame = create_and_launch_game(yugi_model, opp_model, scaler)
+    ygogame.play_game()
+    print ygogame.p1.performance_memory
+    print ygogame.p2.performance_memory
+    '''
+    perf_csv = open('pefromance_results.csv', 'w')
+    writer = csv.writer(perf_csv)
+    writer.writerow(['Game ID', 'P1 Score', 'P2 Score'])
+
+    j = 1
     for i in range(epoch):
         yugi_game_count = 0
         opp_game_count = 0
-        #pdb.set_trace()
         if len(memory) > 0:
-            mem_array = np.concatenate(memory)
+            for x in memory:
+                x['ID'] = 1
+            norm = json_normalize(memory)
+            mem_array = np.array(norm)
             res_array = np.array(results)
             opp_model.fit(mem_array, res_array)
             del memory[:]
             del results[:]
         while yugi_game_count < 4 and opp_game_count < 4:
-            with open("decks/yugi.json", "r") as deck:
-                deck_json = json.loads(deck.read())
-                yugi_deck = create_deck(deck_json)
-                
-            with open("decks/yugi.json", "r") as deck:
-                deck_json = json.loads(deck.read())
-                opp_deck = create_deck(deck_json)
-
-            # Create Players
-            yugi = player.ComputerPlayer("Yugi", yugi_deck, yugi_model)
-            opponent = player.ComputerPlayer("Opponent", opp_deck, opp_model)
-
-            ygogame = game.Game(yugi, opponent)
-            ygogame.play_game()
+            ygogame = create_and_launch_game(yugi_model, opp_model, scaler, j)
+            try:
+                ygogame.play_game()
+            except:
+                continue
 
             winner = ygogame.winner
             print "The winner is " + winner.name
-            if winner == yugi:
+            if winner.name == "Yugi":
                 yugi_game_count += 1
-                win_mem = yugi.memory
-                loss_mem = opponent.memory
-                for i in win_mem:
-                    memory.append(i)
-                    results.append(1)
-                for j in loss_mem:
-                    memory.append(j)
-                    results.append(0)
-            elif winner == opponent:
+                fill_memory(ygogame.p1, ygogame.p2, memory, results)
+            elif winner.name == "Opponent":
                 opp_game_count += 1
-                win_mem = opponent.memory
-                loss_mem = yugi.memory
-                for i in win_mem:
-                    memory.append(i)
-                    results.append(1)
-                for j in loss_mem:
-                    memory.append(j)
-                    results.append(0)
+                fill_memory(ygogame.p2, ygogame.p1, memory, results)
             else:
                 print "ERROR: No winner found"
-                break
-            #pdb.set_trace()
+                continue
 
-            print "Series Score, Yugi: {0} | Opponent {1}".format(yugi_game_count, opp_game_count)
-            print "Match Score, Yugi: {0} | Opponent {1}".format(yugi_win_count, opp_win_count)
+            # Write Performance Memory
+            p1_perf = ygogame.p1.performance_memory
+            p2_perf = ygogame.p2.performance_memory
+            p1_loss = sum(p1_perf)/float(len(p1_perf))
+            p2_loss = sum(p2_perf)/float(len(p2_perf))
+            writer.writerow([j, p1_loss, p2_loss])
+            j += 1
+
         if yugi_game_count >= 4:
             yugi_win_count += 1
             print "Yugi wins match"
@@ -109,12 +149,13 @@ if __name__ == "__main__":
             opp_win_count += 1
             yugi_model.set_weights(opp_model.get_weights())
             print "Opponent wins match"
-        result_csv.write("{0},{1}\n".format(yugi_win_count, opp_win_count))
-        #pdb.set_trace()
-    print "Final Match Score, Yugi: {0} | Opponent {1}".format(yugi_win_count, opp_win_count)
-    result_csv.close()
+
     yugi_model.save_weights("model.h5", overwrite=True)
+    perf_csv.close()
 
 
+# main
+if __name__ == "__main__":
+    train_network()
 
 

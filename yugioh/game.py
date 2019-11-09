@@ -37,8 +37,8 @@ class Game():
         self.game_has_begun = False
         self.save_first_move = False
         self.preselected_first_move = preselected_first_move
-        self.model = None
-        self.scaler = None
+        #self.model = None
+        #self.scaler = None
 
         if shuffle_unknown_cards:
             self.shuffle_unknown_cards()
@@ -48,11 +48,8 @@ class Game():
             self.begin_phase = entry_phase
             self.save_first_move = True
             self.initialize_sim_game()
-        else:
-            self.model = self.create_model_structure()
-            self.scaler = self.create_scaler()
 
-
+    '''
     def create_model_structure(self):
         model = Sequential()
         model.add(Dense(100, input_dim=59, activation="relu", kernel_regularizer=regularizers.l2(0.0002)))
@@ -74,7 +71,7 @@ class Game():
             dfx = json_normalize(data)
         scaler.fit(dfx)
         return scaler
-
+    '''
 
     def play_game(self):
         if self.game_is_over:
@@ -188,7 +185,8 @@ class Game():
         phase_list.append(DrawPhase(player, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
         phase_list.append(MainPhase(player, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
         if self.turn_number > 1:
-            phase_list.append(BattlePhase(player, opponent, self.turn_number, self.model, self.scaler, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
+            #phase_list.append(BattlePhase(player, opponent, self.turn_number, self.model, self.scaler, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
+            phase_list.append(BattlePhase(player, opponent, self.turn_number, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
         phase_list.append(MainPhase2(player, rollout=self.rollout, is_sim=self.is_sim, preselected_move=self.preselected_first_move))
         return phase_list
 
@@ -350,16 +348,33 @@ class MainPhase(Phase):
 
 
 class BattlePhase(Phase):
-    def __init__(self, player, opponent, turn_number, model, scaler, rollout=False, is_sim=False, get_first_move=False, preselected_move=None):
+    #def __init__(self, player, opponent, turn_number, model, scaler, rollout=False, is_sim=False, get_first_move=False, preselected_move=None):
+    def __init__(self, player, opponent, turn_number, rollout=False, is_sim=False, get_first_move=False, preselected_move=None):
         Phase.__init__(self, player, rollout=rollout, is_sim=is_sim, get_first_move=get_first_move, preselected_move=preselected_move)
         self.opponent = opponent
         self.turn_number = turn_number
-        self.model = model
-        self.scaler = scaler
 
 
-    def enter_ismcts_debug(self):
-        move_list = self.get_valid_moves()
+    def score_move(self, move):
+        if isinstance(move, actions.AdvanceTurn):
+            return 2
+        elif isinstance(move, actions.DirectAttack):
+            return 3
+        elif isinstance(move, actions.Attack):
+            if move.monster.atk > move.target.atk:
+                return 3
+            elif move.monster.atk < move.target.atk:
+                return 1
+            else:
+                return 2
+
+
+    def score_hand(self, move_list):
+        max_score = 2
+        for move in move_list:
+            score = self.score_move(move)
+            max_score = max(max_score, score)
+        return max_score
 
 
     def execute_step(self):
@@ -373,9 +388,11 @@ class BattlePhase(Phase):
             logging.debug('Rolling out for move')
             move = self.player.decisionmanager.make_decision(move_list)
         elif not self.is_sim:
+            hand_score = self.score_hand(move_list)
             if len(move_list) > 1:
                 #best_move = self.get_best_move_from_ismcts() # Tests the game in progress
-                best_move = self.get_best_move_from_full_model(self.model, self.scaler)
+                #best_move = self.get_best_move_from_full_model(self.player.model, self.player.scaler)
+                best_move = self.get_best_move_from_network(self.player.model, self.player.scaler)
                 logging.debug('Selected best move: ' + best_move.get_name())
                 for mv in move_list:
                     logging.debug('Comparing against: ' + mv.get_name())
@@ -386,6 +403,9 @@ class BattlePhase(Phase):
             else:
                 logging.debug('Single move available')
                 move = move_list[0]
+            move_score = self.score_move(move)
+            self.player.performance_memory.append(move_score - hand_score)
+            logging.info('Move Score: ' + str(move_score - hand_score))
         elif self.preselected_move != None:
             logging.debug('Using Preselected Move')
             preselected_move_located = False
@@ -446,6 +466,31 @@ class BattlePhase(Phase):
                 max_score = score
                 best_move = edge.action
         return best_move
+
+
+    def get_best_move_from_network(self, model, scaler):
+        ismcts = self.buildISMCTS()
+        i = 0
+        while i < len(self.get_valid_moves()):
+            ismcts = self.run_simulation(ismcts)
+            i += 1
+
+        max_score = 0
+        best_move = None
+        for edge in ismcts.root.edges:
+            ismcts_score = edge.post_node.wins/float(edge.post_node.sims)
+            post_state = statedraw.write_game_state(edge.post_node.player, edge.post_node.opponent)
+            post_state['ID'] = 1
+
+            dfx = json_normalize([post_state])
+            X = scaler.transform(dfx)
+            score = model.predict(X)[0][0]
+
+            if score > max_score or best_move == None:
+                max_score = score
+                best_move = edge.action
+        return best_move
+
 
 
     def get_best_move_from_full_model(self, model, scaler):
@@ -555,8 +600,23 @@ class BattlePhase(Phase):
 
 
     def create_simmed_game(self, player, opponent, turn_number, phase, move):
+        p1_model = player.model
+        p1_scaler = player.scaler
+        p2_model = opponent.model
+        p2_scaler = opponent.scaler
+
+        player.model = None
+        player.scaler = None
+        opponent.model = None
+        opponent.scaler = None
+
         p1 = copy.deepcopy(player)
         p2 = copy.deepcopy(opponent)
+
+        player.model = p1_model
+        player.scaler = p1_scaler
+        opponent.model = p2_model
+        opponent.scaler = p2_scaler
 
         p1.set_as_sim()
         p2.set_as_sim()

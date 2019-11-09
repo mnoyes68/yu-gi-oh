@@ -12,7 +12,8 @@ class Player():
         self.life_points = 4000
         self.is_sim = is_sim
         self.memory = []
-        #self.decisionmanager = decisionmanager.DecisionManager()
+        self.performance_memory = []
+        self.decisionmanager = decisionmanager.DecisionManager()
 
 
     def draw_card(self):
@@ -153,14 +154,13 @@ class Space():
         self.card = None
         self.occupied = False
 
+
 class ComputerPlayer(Player):
     player_type = "Computer"
 
-    def __init__(self, name, deck, model):
+    def __init__(self, name, deck, model, scaler):
         Player.__init__(self, name, deck)
-        if(model == None):
-            self.decisionmanager = decisionmanager.DecisionManager()
-        else:
-            self.decisionmanager = decisionmanager.NetworkDecisionManager(model)
+        self.model = model
+        self.scaler = scaler
 
 
